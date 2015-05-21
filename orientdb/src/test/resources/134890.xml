@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lsdocx xmlns="http://www.weblaw.ch/schema/lsdocx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.weblaw.ch/schema/lsdocx ./ppx.xsd">
+<lsdict>
+<metainfo>
+	<accesstype>free</accesstype>
+	<cache_link>links.weblaw.ch/BSTGER-20.10.2014_RR.2014.253</cache_link>
+	<contentprovider>weblaw</contentprovider>
+	<conv_date>28.10.2014 18:06:44</conv_date>
+	<conv_name>TXT</conv_name>
+	<conv_thread>DCRProc-000001-12265</conv_thread>
+	<conv_version>1.0.0</conv_version>
+	<dataSource>PSE</dataSource>
+	<dcr_deleted>0</dcr_deleted>
+	<dcr_forced>0</dcr_forced>
+	<default_lang>de</default_lang>
+	<dict_version>2.00</dict_version>
+	<docdate>28.10.2014</docdate>
+	<doclang>de</doclang>
+	<encoding>utf-8</encoding>
+	<encodingnon8bit>0</encodingnon8bit>
+	<encodingprobability>100</encodingprobability>
+	<encodingtries>0</encodingtries>
+	<file_mimeinfo>text/plain</file_mimeinfo>
+	<file_mtime>27.10.2014 13:29:19</file_mtime>
+	<file_mtime_crawl>1414515691771</file_mtime_crawl>
+	<file_url>/opt/weblaw-le/prog/dcr/temp/Efe4UUzHkh</file_url>
+	<generated_at>2014-10-28 18:01:31</generated_at>
+	<generated_by>class ch.weblaw.lectl.crawler.agent.BasicDownloadAgent</generated_by>
+	<gesch_nr>RR.2014.253</gesch_nr>
+	<hash>{c}635a36905d0f41b07a833b8b0e3669b2</hash>
+	<id>175366</id>
+	<label_de>Beschwerdekammer: Rechtshilfe</label_de>
+	<label_fr>Cour des plaintes: entraide pénale </label_fr>
+	<label_it>Corte dei reclami penali: assistenza giudiziaria </label_it>
+	<lastChanged>1414412959000</lastChanged>
+	<leid>http:ds2:links.weblaw.ch/BSTGER-20.10.2014_RR.2014.253#</leid>
+	<link>20.10.2014_RR.2014.253</link>
+	<listDate>1414364400000</listDate>
+	<ppx_country>ch</ppx_country>
+	<proz_gegenst>Internationale Rechtshilfe in Strafsachen an Italien. Beweismittelbeschlagnahme (Art. 63 Abs. 2 lit. b IRSG). Rechtsverweigerung/Rechtsverzögerung (Art. 46a VwVG).</proz_gegenst>
+	<publicationDate>1413756000000</publicationDate>
+	<publ_status>0</publ_status>
+	<refine_date>28.10.2014 18:06:47</refine_date>
+	<source_de>BStGer</source_de>
+	<source_fr>TPF</source_fr>
+	<source_it>TPF</source_it>
+	<source_type>3</source_type>
+	<state>OK</state>
+	<title_forced>BStGer RR.2014.253</title_forced>
+	<treepath>ds2:/BStGer/Weitere Entscheide/RR.2014.253</treepath>
+	<url>http://links.weblaw.ch/BSTGER-20.10.2014_RR.2014.253</url>
+	<use_mtime_from>lastChanged</use_mtime_from>
+	<zipcode>8003</zipcode>
+</metainfo>
+<thesaurus type='multiling' name='jurivoc'>
+<procratio>1</procratio>
+<thes_descriptor>
+	<desc id="118" score="11.71" s2dtags="181" flags="text" sort="0">
+		<lang id="de">bundesstrafgericht</lang>
+		<lang id="fr">tribunal pénal fédéral</lang>
+		<lang id="it">tribunale penale federale</lang>
+		<lang id="en">federal criminal court</lang></desc>
+	<desc id="112" score="9.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">beschwerdeführer</lang>
+		<lang id="fr">recourant</lang>
+		<lang id="it">ricorrente</lang>
+		<lang id="en">appellant</lang></desc>
+	<desc id="121" score="8.99" s2dtags="184 206 205" flags="text" sort="0">
+		<lang id="de">entscheid</lang>
+		<lang id="fr">décision</lang>
+		<lang id="it">decisione(senso generale)</lang>
+		<lang id="en">decision</lang></desc>
+	<desc id="113" score="7.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">beschwerdekammer</lang>
+		<lang id="fr">cour des plaintes</lang>
+		<lang id="it">corte dei reclami penali</lang>
+		<lang id="en">board of appeal</lang></desc>
+	<desc id="135" score="6.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">international</lang>
+		<lang id="fr">international</lang>
+		<lang id="it">internazionale</lang>
+		<lang id="en">international</lang></desc>
+	<desc id="152" score="6.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">rechtshilfe in strafsachen</lang>
+		<lang id="fr">entraide judiciaire pénale</lang>
+		<lang id="it">assistenza giudiziaria in materia penale</lang>
+		<lang id="en">mutual assistance in criminal matters</lang></desc>
+	<desc id="174" score="4.71" s2dtags="210" flags="text" sort="0">
+		<lang id="de">zwischenentscheid</lang>
+		<lang id="fr">décision incidente</lang>
+		<lang id="it">decisione incidentale</lang>
+		<lang id="en">interim decision</lang></desc>
+	<desc id="133" score="4.50" s2dtags="183" flags="text" sort="0">
+		<lang id="de">hausdurchsuchung</lang>
+		<lang id="fr">perquisition domiciliaire</lang>
+		<lang id="it">perquisizione domiciliare</lang>
+		<lang id="en">house search</lang></desc>
+	<desc id="128" score="4.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">gegenstandslosigkeit</lang>
+		<lang id="fr">procès devenu sans objet</lang>
+		<lang id="it">privo d'oggetto</lang>
+		<lang id="en">pointlessness</lang></desc>
+	<desc id="159" score="4.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">schweiz</lang>
+		<lang id="fr">suisse(état)</lang>
+		<lang id="it">svizzera(stato)</lang>
+		<lang id="en">switzerland</lang></desc>
+	<desc id="150" score="4.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">rechtshilfe</lang>
+		<lang id="fr">entraide</lang>
+		<lang id="it">assistenza giudiziaria</lang>
+		<lang id="en">legal assistance</lang></desc>
+	<desc id="103" score="3.71" s2dtags="182" flags="text" sort="0">
+		<lang id="de">ausführung</lang>
+		<lang id="fr">exécution(sens général)</lang>
+		<lang id="it">esecuzione(senso generale)</lang>
+		<lang id="en">execution(in general)</lang></desc>
+	<desc id="161" score="3.50" s2dtags="201" flags="text" sort="0">
+		<lang id="de">sicherstellung</lang>
+		<lang id="fr">sûretés</lang>
+		<lang id="it">garanzie</lang>
+		<lang id="en">ensuring</lang></desc>
+	<desc id="153" score="3.15" s2dtags="209 194" flags="text" sort="0">
+		<lang id="de">rechtshilfemassnahme</lang>
+		<lang id="fr">acte d'entraide</lang>
+		<lang id="it">misura di assistenza giudiziaria</lang>
+		<lang id="en">legal assistance measures</lang></desc>
+	<desc id="138" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">iv</lang>
+		<lang id="fr">ai(assurance)</lang>
+		<lang id="it">ai(assicurazione)</lang>
+		<lang id="en">invalidity insurance</lang></desc>
+	<desc id="149" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">rechtsanwalt</lang>
+		<lang id="fr">avocat</lang>
+		<lang id="it">avvocato</lang>
+		<lang id="en">lawyer</lang></desc>
+	<desc id="165" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">tag</lang>
+		<lang id="fr">jour</lang>
+		<lang id="it">giorno</lang>
+		<lang id="en">day</lang></desc>
+	<desc id="129" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">gerichtsgebühr</lang>
+		<lang id="fr">émolument de justice</lang>
+		<lang id="it">tassa di giustizia</lang>
+		<lang id="en">court fees</lang></desc>
+	<desc id="156" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">rechtsverzögerung</lang>
+		<lang id="fr">retard injustifié</lang>
+		<lang id="it">ritardata giustizia</lang>
+		<lang id="en">legal delay</lang></desc>
+	<desc id="145" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">name</lang>
+		<lang id="fr">nom</lang>
+		<lang id="it">nome</lang>
+		<lang id="en">name</lang></desc>
+	<desc id="142" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">kostenvorschuss</lang>
+		<lang id="fr">avance de frais</lang>
+		<lang id="it">anticipo delle spese</lang>
+		<lang id="en">advance on costs</lang></desc>
+	<desc id="136" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">italien</lang>
+		<lang id="fr">italie</lang>
+		<lang id="it">italia</lang>
+		<lang id="en">italy</lang></desc>
+	<desc id="107" score="3.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">behörde</lang>
+		<lang id="fr">autorité</lang>
+		<lang id="it">autorità</lang>
+		<lang id="en">authority</lang></desc>
+	<desc id="123" score="2.58" s2dtags="199" flags="text" sort="0">
+		<lang id="de">erheblichkeit</lang>
+		<lang id="fr">importance notable</lang>
+		<lang id="it">importanza</lang>
+		<lang id="en">materiality</lang></desc>
+	<desc id="167" score="2.41" s2dtags="191 195" flags="text" sort="0">
+		<lang id="de">verfahren</lang>
+		<lang id="fr">procédure</lang>
+		<lang id="it">procedura</lang>
+		<lang id="en">proceeding</lang></desc>
+	<desc id="154" score="2.16" s2dtags="180" flags="text" sort="0">
+		<lang id="de">rechtsmittel</lang>
+		<lang id="fr">moyen de droit</lang>
+		<lang id="it">rimedio giuridico</lang>
+		<lang id="en">remedies</lang></desc>
+	<desc id="155" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">rechtsmittelbelehrung</lang>
+		<lang id="fr">indication des voies de droit</lang>
+		<lang id="it">indicazione dei rimedi giuridici</lang>
+		<lang id="en">instructions about a person's right to appeal</lang></desc>
+	<desc id="126" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">frage</lang>
+		<lang id="fr">question</lang>
+		<lang id="it">quesito</lang>
+		<lang id="en">question</lang></desc>
+	<desc id="110" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">beschlagnahme</lang>
+		<lang id="fr">séquestre(mesure provisionnelle)</lang>
+		<lang id="it">sequestro(misura provvisionale)</lang>
+		<lang id="en">seizure</lang></desc>
+	<desc id="168" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">vermögenswert</lang>
+		<lang id="fr">valeur patrimoniale</lang>
+		<lang id="it">valore patrimoniale</lang>
+		<lang id="en">value of assets</lang></desc>
+	<desc id="114" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">besonders bedeutender fall</lang>
+		<lang id="fr">cas particulièrement important</lang>
+		<lang id="it">caso particolarmente importante</lang>
+		<lang id="en">particulary important case</lang></desc>
+	<desc id="137" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">italienisch</lang>
+		<lang id="fr">italien(langue)</lang>
+		<lang id="it">italiano</lang>
+		<lang id="en">italian</lang></desc>
+	<desc id="101" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">anfechtbarkeit</lang>
+		<lang id="fr">annulabilité</lang>
+		<lang id="it">annullabilità</lang>
+		<lang id="en">voidability</lang></desc>
+	<desc id="117" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">bundesgericht</lang>
+		<lang id="fr">tribunal fédéral</lang>
+		<lang id="it">tribunale federale</lang>
+		<lang id="en">federal court</lang></desc>
+	<desc id="119" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">ehegatte</lang>
+		<lang id="fr">conjoint</lang>
+		<lang id="it">coniuge</lang>
+		<lang id="en">spouse</lang></desc>
+	<desc id="144" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">mobiltelefon</lang>
+		<lang id="fr">téléphone mobile</lang>
+		<lang id="it">telefono cellulare</lang>
+		<lang id="en">mobile phone</lang></desc>
+	<desc id="131" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">gerichtsschreiber</lang>
+		<lang id="fr">greffier</lang>
+		<lang id="it">cancelliere</lang>
+		<lang id="en">clerk</lang></desc>
+	<desc id="172" score="2.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">weiler</lang>
+		<lang id="fr">hameau</lang>
+		<lang id="it">casale</lang>
+		<lang id="en">hamlet</lang></desc>
+	<desc id="158" score="1.99" s2dtags="197 198 200" flags="" sort="0">
+		<lang id="de">schengen-besitzstand</lang>
+		<lang id="fr"></lang>
+		<lang id="it"></lang>
+		<lang id="en"></lang></desc>
+	<desc id="130" score="1.78" s2dtags="192 188" flags="text" sort="0">
+		<lang id="de">gerichtskosten</lang>
+		<lang id="fr">frais judiciaires</lang>
+		<lang id="it">spese giudiziarie</lang>
+		<lang id="en">litigation costs</lang></desc>
+	<desc id="166" score="1.71" s2dtags="204" flags="text" sort="0">
+		<lang id="de">umstände</lang>
+		<lang id="fr">circonstances</lang>
+		<lang id="it">circostanze</lang>
+		<lang id="en">circumstances</lang></desc>
+	<desc id="147" score="1.71" s2dtags="207" flags="text" sort="0">
+		<lang id="de">präsident</lang>
+		<lang id="fr">président</lang>
+		<lang id="it">presidente(in generale)</lang>
+		<lang id="en">president</lang></desc>
+	<desc id="102" score="1.71" s2dtags="177" flags="text" sort="0">
+		<lang id="de">anwesenheit</lang>
+		<lang id="fr">présence</lang>
+		<lang id="it">presenza</lang>
+		<lang id="en">presence</lang></desc>
+	<desc id="160" score="1.71" s2dtags="203" flags="text" sort="0">
+		<lang id="de">schweizerische strafprozessordnung</lang>
+		<lang id="fr">code de procédure pénale suisse</lang>
+		<lang id="it">codice di procedura penale svizzero</lang>
+		<lang id="en">swiss code of criminal procedure</lang></desc>
+	<desc id="162" score="1.58" s2dtags="202 176 175" flags="" sort="0">
+		<lang id="de">staatsvertrag</lang>
+		<lang id="fr">traité international</lang>
+		<lang id="it">convenzione internazionale</lang>
+		<lang id="en">treaty</lang></desc>
+	<desc id="171" score="1.58" s2dtags="202 176 175" flags="" sort="0">
+		<lang id="de">vertrag zwischen kanton und ausländischem staat</lang>
+		<lang id="fr">traité entre canton et état étranger</lang>
+		<lang id="it">trattato tra cantone e stato estero</lang>
+		<lang id="en">contract between a canton and a foreign state</lang></desc>
+	<desc id="140" score="1.56" s2dtags="179 208 189" flags="" sort="0">
+		<lang id="de">kommunikation</lang>
+		<lang id="fr">communication</lang>
+		<lang id="it">comunicazione</lang>
+		<lang id="en">communication</lang></desc>
+	<desc id="170" score="1.45" s2dtags="190" flags="text" sort="0">
+		<lang id="de">vertragspartei</lang>
+		<lang id="fr">partie au contrat</lang>
+		<lang id="it">parte contraente</lang>
+		<lang id="en">contractual party</lang></desc>
+	<desc id="169" score="1.32" s2dtags="196" flags="text" sort="0">
+		<lang id="de">verordnung</lang>
+		<lang id="fr">ordonnance</lang>
+		<lang id="it">ordinanza</lang>
+		<lang id="en">regulation</lang></desc>
+	<desc id="122" score="1.23" s2dtags="208 185 189" flags="" sort="0">
+		<lang id="de">eröffnung des entscheids</lang>
+		<lang id="fr">notification de la décision</lang>
+		<lang id="it">notificazione della decisione</lang>
+		<lang id="en">notification of judgment</lang></desc>
+	<desc id="106" score="1.21" s2dtags="187 178" flags="" sort="0">
+		<lang id="de">begründung des entscheids</lang>
+		<lang id="fr">motivation de la décision</lang>
+		<lang id="it">motivazione della decisione</lang>
+		<lang id="en">statement of reasons for the adjudication</lang></desc>
+	<desc id="151" score="1.21" s2dtags="193 186" flags="" sort="0">
+		<lang id="de">rechtshilfegesuch</lang>
+		<lang id="fr">demande d'entraide</lang>
+		<lang id="it">domanda di assistenza giudiziaria</lang>
+		<lang id="en">request for juridical assistance</lang></desc>
+	<desc id="108" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">bellinzona</lang>
+		<lang id="fr">bellinzone</lang>
+		<lang id="it">bellinzona</lang>
+		<lang id="en">bellinzona</lang></desc>
+	<desc id="134" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">innerhalb</lang>
+		<lang id="fr">à l'intérieur</lang>
+		<lang id="it">all'interno</lang>
+		<lang id="en">within</lang></desc>
+	<desc id="141" score="1.00" s2dtags="176 175" flags="" sort="0">
+		<lang id="de">konkordat(vertrag zwischen kantonen)</lang>
+		<lang id="fr">concordat(traité entre cantons)</lang>
+		<lang id="it">concordato(trattato intercantonale)</lang>
+		<lang id="en">concordat(contract between cantons)</lang></desc>
+	<desc id="148" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">rahm</lang>
+		<lang id="fr">crème</lang>
+		<lang id="it">panna</lang>
+		<lang id="en">cream</lang></desc>
+	<desc id="111" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">beschuldigter</lang>
+		<lang id="fr">prévenu</lang>
+		<lang id="it">accusato</lang>
+		<lang id="en">accused</lang></desc>
+	<desc id="115" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">beweismittel</lang>
+		<lang id="fr">moyen de preuve</lang>
+		<lang id="it">mezzo di prova</lang>
+		<lang id="en">evidence</lang></desc>
+	<desc id="164" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">summarische begründung</lang>
+		<lang id="fr">motivation sommaire</lang>
+		<lang id="it">motivazione sommaria</lang>
+		<lang id="en">summary statement</lang></desc>
+	<desc id="157" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">sachverhalt</lang>
+		<lang id="fr">état de fait</lang>
+		<lang id="it">fattispecie</lang>
+		<lang id="en">statement of affairs</lang></desc>
+	<desc id="100" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">akteneinsicht</lang>
+		<lang id="fr">consultation du dossier</lang>
+		<lang id="it">consultazione degli atti</lang>
+		<lang id="en">access records</lang></desc>
+	<desc id="120" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">endentscheid</lang>
+		<lang id="fr">décision finale</lang>
+		<lang id="it">decisione finale</lang>
+		<lang id="en">final decision</lang></desc>
+	<desc id="104" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">ausländer</lang>
+		<lang id="fr">ressortissant étranger</lang>
+		<lang id="it">cittadino straniero</lang>
+		<lang id="en">foreigner</lang></desc>
+	<desc id="116" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">bundesamt für justiz</lang>
+		<lang id="fr">office fédéral de la justice</lang>
+		<lang id="it">ufficio federale di giustizia</lang>
+		<lang id="en">federal office of justice</lang></desc>
+	<desc id="105" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">auslieferungshaft</lang>
+		<lang id="fr">détention extraditionnelle</lang>
+		<lang id="it">arresto in vista d'estradizione</lang>
+		<lang id="en">extraditional custody</lang></desc>
+	<desc id="124" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">europäisches übereinkommen(gesuche um unentgeltliche rechtspflege)</lang>
+		<lang id="fr">accord européen sur la transmission des demandes d'assistance judiciaire</lang>
+		<lang id="it">accordo europeo sulla trasmissione delle domande di assistenza giudiziaria</lang>
+		<lang id="en">european convention for legal aid</lang></desc>
+	<desc id="139" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">kenntnis</lang>
+		<lang id="fr">connaissance</lang>
+		<lang id="it">conoscenza</lang>
+		<lang id="en">knowledge</lang></desc>
+	<desc id="109" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">berechnung</lang>
+		<lang id="fr">calcul</lang>
+		<lang id="it">calcolo</lang>
+		<lang id="en">calculation</lang></desc>
+	<desc id="163" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">strafverfolgungsbehörde</lang>
+		<lang id="fr">autorité de poursuite pénale</lang>
+		<lang id="it">autorità penale</lang>
+		<lang id="en">prosecuting authority</lang></desc>
+	<desc id="127" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">gebühr</lang>
+		<lang id="fr">émolument</lang>
+		<lang id="it">emolumento</lang>
+		<lang id="en">fee</lang></desc>
+	<desc id="146" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">person</lang>
+		<lang id="fr">personne</lang>
+		<lang id="it">persona</lang>
+		<lang id="en">person</lang></desc>
+	<desc id="132" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">gründer</lang>
+		<lang id="fr">fondateur(création)</lang>
+		<lang id="it">fondatore(creazione)</lang>
+		<lang id="en">founder</lang></desc>
+	<desc id="173" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">zuständigkeit</lang>
+		<lang id="fr">compétence</lang>
+		<lang id="it">competenza</lang>
+		<lang id="en">competence</lang></desc>
+	<desc id="143" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">kriminelle organisation</lang>
+		<lang id="fr">organisation criminelle</lang>
+		<lang id="it">organizzazione criminale</lang>
+		<lang id="en">criminal organization</lang></desc>
+	<desc id="125" score="1.00" s2dtags="" flags="text" sort="0">
+		<lang id="de">fotografie</lang>
+		<lang id="fr">photographie</lang>
+		<lang id="it">fotografia</lang>
+		<lang id="en">photography</lang></desc>
+</thes_descriptor>
+<thes_synonym>
+	<syn id="180" count="20" desc="154">beschwerde</syn>
+	<syn id="203" count="9" desc="160">stpo</syn>
+	<syn id="201" count="4" desc="161">sicherheit</syn>
+	<syn id="206" count="4" desc="121">verfügung</syn>
+	<syn id="188" count="4" desc="130">kosten</syn>
+	<syn id="193" count="2" desc="151">rechtshilfeersuchen</syn>
+	<syn id="184" count="2" desc="121">entscheidung</syn>
+	<syn id="190" count="2" desc="170">partei</syn>
+	<syn id="183" count="2" desc="133">durchsuchung</syn>
+	<syn id="175" count="2" desc="141 162 171">übereinkommen</syn>
+	<syn id="200" count="2" desc="158">sdü</syn>
+	<syn id="187" count="1" desc="106">erwägung</syn>
+	<syn id="197" count="1" desc="158">schengen</syn>
+	<syn id="182" count="1" desc="103">durchführung</syn>
+	<syn id="178" count="1" desc="106">begründung</syn>
+	<syn id="181" count="1" desc="118">bstger</syn>
+	<syn id="192" count="1" desc="130">prozesskosten</syn>
+	<syn id="209" count="1" desc="153">zwangsmassnahme</syn>
+	<syn id="198" count="1" desc="158">schengener durchführungsübereinkommen</syn>
+	<syn id="179" count="1" desc="140">benachrichtigung</syn>
+	<syn id="208" count="1" desc="122 140">zustellung</syn>
+	<syn id="210" count="1" desc="174">zwischenverfügung</syn>
+	<syn id="199" count="1" desc="123">schwere</syn>
+	<syn id="185" count="1" desc="122">eröffnung</syn>
+	<syn id="191" count="1" desc="167">prozess</syn>
+	<syn id="186" count="1" desc="151">ersuchen</syn>
+	<syn id="202" count="1" desc="162 171">staatsvertragsrecht</syn>
+	<syn id="176" count="1" desc="141 162 171">abkommen</syn>
+	<syn id="194" count="1" desc="153">rechtshilfehandlung</syn>
+	<syn id="204" count="1" desc="166">umstand</syn>
+	<syn id="205" count="1" desc="121">urteil</syn>
+	<syn id="207" count="1" desc="147">vorsitzender</syn>
+	<syn id="177" count="1" desc="102">anwesender</syn>
+	<syn id="195" count="1" desc="167">rechtsschutz</syn>
+	<syn id="196" count="1" desc="169">reglement</syn>
+	<syn id="189" count="1" desc="122 140">mitteilung</syn>
+</thes_synonym>
+</thesaurus>
+<tagtocode>
+	<lt id="170">vertragspartei~</lt>
+	<lt id="127">gebühr~</lt>
+	<lt id="206">entscheid~</lt>
+	<lt id="118">bundesstrafgericht~</lt>
+	<lt id="102">anwesenheit~</lt>
+	<lt id="193">rechtshilfegesuch~</lt>
+	<lt id="119">ehegatte~</lt>
+	<lt id="200">schengen~besitzstand~</lt>
+	<lt id="180">rechtsmittel~</lt>
+	<lt id="179">kommunikation~</lt>
+	<lt id="125">fotografie~</lt>
+	<lt id="190">vertragspartei~</lt>
+	<lt id="161">sicherstellung~</lt>
+	<lt id="182">ausführung~</lt>
+	<lt id="194">rechtshilfemassnahme~</lt>
+	<lt id="108">bellinzona~</lt>
+	<lt id="115">beweismittel~</lt>
+	<lt id="163">strafverfolgungsbehörde~</lt>
+	<lt id="109">berechnung~</lt>
+	<lt id="103">ausführung~</lt>
+	<lt id="201">sicherstellung~</lt>
+	<lt id="175">konkordat~vertrag~zwischen~kantonen~ staatsvertrag~ vertrag~zwischen~kanton~und~ausländischem~staat~</lt>
+	<lt id="148">rahm~</lt>
+	<lt id="113">beschwerdekammer~</lt>
+	<lt id="152">rechtshilfe~in~strafsachen~</lt>
+	<lt id="189">eröffnung~des~entscheids~ kommunikation~</lt>
+	<lt id="207">präsident~</lt>
+	<lt id="142">kostenvorschuss~</lt>
+	<lt id="208">eröffnung~des~entscheids~ kommunikation~</lt>
+	<lt id="167">verfahren~</lt>
+	<lt id="107">behörde~</lt>
+	<lt id="174">zwischenentscheid~</lt>
+	<lt id="157">sachverhalt~</lt>
+	<lt id="133">hausdurchsuchung~</lt>
+	<lt id="197">schengen~besitzstand~</lt>
+	<lt id="149">rechtsanwalt~</lt>
+	<lt id="123">erheblichkeit~</lt>
+	<lt id="203">schweizerische~strafprozessordnung~</lt>
+	<lt id="210">zwischenentscheid~</lt>
+	<lt id="138">iv~</lt>
+	<lt id="199">erheblichkeit~</lt>
+	<lt id="114">besonders~bedeutender~fall~</lt>
+	<lt id="153">rechtshilfemassnahme~</lt>
+	<lt id="137">italienisch~</lt>
+	<lt id="173">zuständigkeit~</lt>
+	<lt id="101">anfechtbarkeit~</lt>
+	<lt id="204">umstände~</lt>
+	<lt id="165">tag~</lt>
+	<lt id="198">schengen~besitzstand~</lt>
+	<lt id="139">kenntnis~</lt>
+	<lt id="188">gerichtskosten~</lt>
+	<lt id="129">gerichtsgebühr~</lt>
+	<lt id="166">umstände~</lt>
+	<lt id="116">bundesamt~für~justiz~</lt>
+	<lt id="136">italien~</lt>
+	<lt id="186">rechtshilfegesuch~</lt>
+	<lt id="144">mobiltelefon~</lt>
+	<lt id="100">akteneinsicht~</lt>
+	<lt id="110">beschlagnahme~</lt>
+	<lt id="128">gegenstandslosigkeit~</lt>
+	<lt id="147">präsident~</lt>
+	<lt id="120">endentscheid~</lt>
+	<lt id="134">innerhalb~</lt>
+	<lt id="156">rechtsverzögerung~</lt>
+	<lt id="192">gerichtskosten~</lt>
+	<lt id="202">staatsvertrag~ vertrag~zwischen~kanton~und~ausländischem~staat~</lt>
+	<lt id="168">vermögenswert~</lt>
+	<lt id="184">entscheid~</lt>
+	<lt id="135">international~</lt>
+	<lt id="112">beschwerdeführer~</lt>
+	<lt id="191">verfahren~</lt>
+	<lt id="172">weiler~</lt>
+	<lt id="145">name~</lt>
+	<lt id="177">anwesenheit~</lt>
+	<lt id="178">begründung~des~entscheids~</lt>
+	<lt id="187">begründung~des~entscheids~</lt>
+	<lt id="150">rechtshilfe~</lt>
+	<lt id="124">europäisches~übereinkommen~gesuche~um~unentgeltliche~rechtspflege~</lt>
+	<lt id="104">ausländer~</lt>
+	<lt id="131">gerichtsschreiber~</lt>
+	<lt id="130">gerichtskosten~</lt>
+	<lt id="155">rechtsmittelbelehrung~</lt>
+	<lt id="181">bundesstrafgericht~</lt>
+	<lt id="121">entscheid~</lt>
+	<lt id="143">kriminelle~organisation~</lt>
+	<lt id="205">entscheid~</lt>
+	<lt id="154">rechtsmittel~</lt>
+	<lt id="105">auslieferungshaft~</lt>
+	<lt id="126">frage~</lt>
+	<lt id="159">schweiz~</lt>
+	<lt id="185">eröffnung~des~entscheids~</lt>
+	<lt id="183">hausdurchsuchung~</lt>
+	<lt id="111">beschuldigter~</lt>
+	<lt id="146">person~</lt>
+	<lt id="160">schweizerische~strafprozessordnung~</lt>
+	<lt id="176">konkordat~vertrag~zwischen~kantonen~ staatsvertrag~ vertrag~zwischen~kanton~und~ausländischem~staat~</lt>
+	<lt id="209">rechtshilfemassnahme~</lt>
+	<lt id="132">gründer~</lt>
+	<lt id="164">summarische~begründung~</lt>
+	<lt id="169">verordnung~</lt>
+	<lt id="196">verordnung~</lt>
+	<lt id="117">bundesgericht~</lt>
+	<lt id="195">verfahren~</lt>
+</tagtocode>
+<lslexrefs>
+<jud-ch-bund-bge>
+	<item linksref="BGE-129-II-462" name="129-II-462" id="222" score="0.00" sort="0"/>
+	<item linksref="BGE-124-II-180" name="124-II-180" id="219" score="0.00" sort="0"/>
+	<item linksref="BGE-136-IV-82" name="136-IV-82" id="221" score="0.00" sort="0"/>
+	<item linksref="BGE-135-IV-212" name="135-IV-212" id="223" score="0.00" sort="0"/>
+	<item linksref="BGE-130-II-337" name="130-II-337" id="217" score="0.00" sort="0"/>
+	<item linksref="BGE-123-II-595" name="123-II-595" id="224" score="0.00" sort="0"/>
+	<item linksref="BGE-137-IV-33" name="137-IV-33" id="220" score="0.00" sort="0"/>
+	<item linksref="BGE-128-II-355" name="128-II-355" id="218" score="0.00" sort="0"/>
+</jud-ch-bund-bge>
+<jud-ch-bund-bstger>
+	<item linksref="BSTGER-RR.2013.229" name="RR.2013.229" id="228" score="0.00" sort="0"/>
+	<item linksref="BSTGER-RR.2014.253" name="RR.2014.253" id="226" score="0.00" sort="0"/>
+	<item linksref="BSTGER-RR.2014.232" name="RR.2014.232" id="229" score="0.00" sort="0"/>
+	<item linksref="BSTGER-RR.2013.268" name="RR.2013.268" id="227" score="0.00" sort="0"/>
+</jud-ch-bund-bstger>
+<lex-int-eu-amtsblatt>
+	<item linksref="EU-Amtsblatt 2000 L239" name="2000 L239" id="230" score="0.00" sort="0"/>
+</lex-int-eu-amtsblatt>
+<jud-ch-bund-bgu>
+	<item linksref="1B_563/2011" name="1B_563/2011" id="225" score="0.00" sort="0"/>
+</jud-ch-bund-bgu>
+<lex-ch-bund-sr-h>
+	<item linksref="SR-173.110+Art.84 Abs.1" rev="" name="SR-173.110 (17.06.2005), Art.84 (17.06.2005), Abs.1 (17.06.2005)" id="257" score="0.00" sort="0"/>
+	<item linksref="SR-351.1+Art.63" rev="" name="SR-351.1 (20.03.1981), Art.63 (20.03.1981)" id="239" score="0.00" sort="0"/>
+	<item linksref="SR-173.110+Art.84 Abs.2" rev="" name="SR-173.110 (17.06.2005), Art.84 (17.06.2005), Abs.2 (17.06.2005)" id="258" score="0.00" sort="0"/>
+	<item linksref="SR-173.110+Art.92 Abs.2" rev="" name="SR-173.110 (17.06.2005), Art.92 (17.06.2005), Abs.2 (17.06.2005)" id="253" score="0.00" sort="0"/>
+	<item linksref="SR-173.71+Art.39 Abs.2 Bst.b" rev="" name="SR-173.71 (19.03.2010), Art.39 (19.03.2010), Abs.2 (19.03.2010), Bst.b (19.03.2010)" id="243" score="0.00" sort="0"/>
+	<item linksref="SR-351.1+Art.12 Abs.1" rev="" name="SR-351.1 (20.03.1981), Art.12 (20.03.1981), Abs.1 (20.03.1981)" id="240" score="0.00" sort="0"/>
+	<item linksref="SR-351.1" name="SR-351.1 (20.03.1981)" id="213" score="0.00" sort="0"/>
+	<item linksref="SR-173.110+Art.93 Abs.3" rev="" name="SR-173.110 (17.06.2005), Art.93 (17.06.2005), Abs.3 (17.06.2005)" id="256" score="0.00" sort="0"/>
+	<item linksref="SR-0.351.1" name="SR-0.351.1 (20.04.1959)" id="211" score="0.00" sort="0"/>
+	<item linksref="SR-173.71+Art.37 Abs.2 Bst.a" rev="" name="SR-173.71 (19.03.2010), Art.37 (19.03.2010), Abs.2 (19.03.2010), Bst.a (19.03.2010)" id="242" score="0.00" sort="0"/>
+	<item linksref="SR-273" name="SR-273 (04.12.1947)" id="215" score="0.00" sort="0"/>
+	<item linksref="SR-312.0+Art.393" rev="" name="SR-312.0 (25.08.2014), Art.393 (25.08.2014)" id="235" score="0.00" sort="0"/>
+	<item linksref="SR-351.1+Art.80 Abs.1" rev="" name="SR-351.1 (20.03.1981), Art.80 (20.03.1981), Abs.1 (20.03.1981)" id="244" score="0.00" sort="0"/>
+	<item linksref="SR-173.110+Art.100 Abs.1" rev="" name="SR-173.110 (17.06.2005), Art.100 (17.06.2005), Abs.1 (17.06.2005)" id="259" score="0.00" sort="0"/>
+	<item linksref="SR-351.1+Art.80d" rev="" name="SR-351.1 (20.03.1981), Art.80d (20.03.1981)" id="245" score="0.00" sort="0"/>
+	<item linksref="SR-172.021+Art.63 Abs.5" rev="" name="SR-172.021 (10.09.2014), Art.63 (10.09.2014), Abs.5 (10.09.2014)" id="250" score="0.00" sort="0"/>
+	<item linksref="SR-312.0+Art.54" rev="" name="SR-312.0 (25.08.2014), Art.54 (25.08.2014)" id="241" score="0.00" sort="0"/>
+	<item linksref="SR-351.1+Art.1 Abs.1" rev="" name="SR-351.1 (20.03.1981), Art.1 (20.03.1981), Abs.1 (20.03.1981)" id="238" score="0.00" sort="0"/>
+	<item linksref="SR-351.11" name="SR-351.11 (20.03.1981)" id="214" score="0.00" sort="0"/>
+	<item linksref="SR-172.021+Art.52 Abs.2" rev="" name="SR-172.021 (10.09.2014), Art.52 (10.09.2014), Abs.2 (10.09.2014)" id="236" score="0.00" sort="0"/>
+	<item linksref="SR-0.351.913.61" name="SR-0.351.913.61 (20.04.1959)" id="212" score="0.00" sort="0"/>
+	<item linksref="SR-312.0+Art.241" rev="" name="SR-312.0 (25.08.2014), Art.241 (25.08.2014)" id="234" score="0.00" sort="0"/>
+	<item linksref="SR-173.110+Art.93 Abs.2" rev="" name="SR-173.110 (17.06.2005), Art.93 (17.06.2005), Abs.2 (17.06.2005)" id="255" score="0.00" sort="0"/>
+	<item linksref="SR-351.1+Art.63 Abs.2 Bst.b" rev="" name="SR-351.1 (20.03.1981), Art.63 (20.03.1981), Abs.2 (20.03.1981), Bst.b (20.03.1981)" id="231" score="0.00" sort="0"/>
+	<item linksref="SR-173.110+Art.93 Abs.1" rev="" name="SR-173.110 (17.06.2005), Art.93 (17.06.2005), Abs.1 (17.06.2005)" id="254" score="0.00" sort="0"/>
+	<item linksref="SR-273+Art.72" rev="" name="SR-273 (03.07.2014), Art.72 (03.07.2014)" id="248" score="0.00" sort="0"/>
+	<item linksref="SR-172.021+Art.63 Abs.1" rev="" name="SR-172.021 (10.09.2014), Art.63 (10.09.2014), Abs.1 (10.09.2014)" id="249" score="0.00" sort="0"/>
+	<item linksref="SR-173.713.162" name="SR-173.713.162 (31.08.2010)" id="216" score="0.00" sort="0"/>
+	<item linksref="SR-172.021+Art.46a" rev="" name="SR-172.021 (10.09.2014), Art.46a (10.09.2014)" id="247" score="0.00" sort="0"/>
+	<item linksref="SR-351.1+Art.80e Abs.2" rev="" name="SR-351.1 (20.03.1981), Art.80e (20.03.1981), Abs.2 (20.03.1981)" id="246" score="0.00" sort="0"/>
+	<item linksref="SR-173.71+Art.53 Abs.2 Bst.a" rev="" name="SR-173.71 (19.03.2010), Art.53 (19.03.2010), Abs.2 (19.03.2010), Bst.a (19.03.2010)" id="251" score="0.00" sort="0"/>
+	<item linksref="SR-172.021+Art.52 Abs.3" rev="" name="SR-172.021 (10.09.2014), Art.52 (10.09.2014), Abs.3 (10.09.2014)" id="237" score="0.00" sort="0"/>
+	<item linksref="SR-173.110+Art.100 Abs.2" rev="" name="SR-173.110 (17.06.2005), Art.100 (17.06.2005), Abs.2 (17.06.2005)" id="260" score="0.00" sort="0"/>
+	<item linksref="SR-173.110+Art.92 Abs.1" rev="" name="SR-173.110 (17.06.2005), Art.92 (17.06.2005), Abs.1 (17.06.2005)" id="252" score="0.00" sort="0"/>
+	<item linksref="SR-311.0+Art.260ter" rev="" name="SR-311.0 (21.12.1937), Art.260ter (21.12.1937)" id="233" score="0.00" sort="0"/>
+	<item linksref="SR-172.021+Art.46a" rev="" name="SR-172.021 (20.12.1968), Art.46a (20.12.1968)" id="232" score="0.00" sort="0"/>
+</lex-ch-bund-sr-h>
+</lslexrefs>
+</lsdict>
+<text>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title><ls_s xmlns="" idx="a" id="181" />BStGer<ls_e xmlns="" idx="a" id="181" /> <lsannot xmlns="" idx="a" id="226" type="jud-ch-bund-bstger" refstr="BSTGER-RR.2014.253">RR.2014.253</lsannot></title>
+</head>
+<body>
+<pre xml:space="preserve"><ls_s xmlns="" idx="a" id="118" />Bundesstrafgericht<ls_e xmlns="" idx="a" id="118" />
+Tribunal pénal fédéral
+Tribunale penale federale
+Tribunal penal federal
+
+
+Geschäftsnummer: <lsannot xmlns="" idx="a" id="226" type="jud-ch-bund-bstger" refstr="BSTGER-RR.2014.253">RR.2014.253</lsannot>-254
+
+<ls_s xmlns="" idx="a" id="121" />Entscheid<ls_e xmlns="" idx="a" id="121" /> vom 20. Oktober 2014
+<ls_s xmlns="" idx="a" id="113" />Beschwerdekammer<ls_e xmlns="" idx="a" id="113" />
+
+Besetzung
+
+Bundesstrafrichter Stephan Blättler, <ls_s xmlns="" idx="a" id="207" />Vorsitz<ls_e xmlns="" idx="a" id="207" />,
+
+Emanuel Hochstrasser und Cornelia Cova,
+
+<ls_s xmlns="" idx="a" id="131" />Gerichtsschreiber<ls_e xmlns="" idx="a" id="131" /> Miro Dangubic
+
+<ls_s xmlns="" idx="a" id="190" />Parteien<ls_e xmlns="" idx="a" id="190" />
+
+1. A.,
+
+2. B.,
+
+beide vertreten durch <ls_s xmlns="" idx="a" id="149" />Rechtsanwalt<ls_e xmlns="" idx="a" id="149" /> Daniel Speck,
+
+<ls_s xmlns="" idx="a" id="112" />Beschwerdeführer<ls_e xmlns="" idx="a" id="112" /> 1 und 2
+
+gegen
+
+Bundesanwaltschaft,
+
+Beschwerdegegnerin
+
+Gegenstand
+
+<ls_s xmlns="" idx="a" id="135" />Internationale<ls_e xmlns="" idx="a" id="135" /> <ls_s xmlns="" idx="a" id="152" />Rechtshilfe in Strafsachen<ls_e xmlns="" idx="a" id="152" /> an <ls_s xmlns="" idx="a" id="136" />Italien<ls_e xmlns="" idx="a" id="136" />
+
+Beweismittelbeschlagnahme (Art. 63 Abs. 2 lit. b<lsannot xmlns="" idx="a" id="231" type="lex-ch-bund-sr-h" refstr="IRSG Art. 63 Abs.2 Bst.b"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über internationale Rechtshilfe in Strafsachen.">IRSG</lsannot>);
+Rechtsverweigerung/<ls_s xmlns="" idx="a" id="156" />Rechtsverzögerung<ls_e xmlns="" idx="a" id="156" /> (Art. 46a<lsannot xmlns="" idx="a" id="232" type="lex-ch-bund-sr-h" refstr="VwVG Art. 46a"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Verwaltungsverfahren.">VwVG</lsannot>)
+
+<ls_s xmlns="" idx="a" id="157" />Sachverhalt<ls_e xmlns="" idx="a" id="157" />:
+
+A. Die <ls_s xmlns="" idx="a" id="137" />italienischen<ls_e xmlns="" idx="a" id="137" /> <ls_s xmlns="" idx="a" id="163" />Strafverfolgungsbehörden<ls_e xmlns="" idx="a" id="163" /> führen gegen A. und weitere <ls_s xmlns="" idx="a" id="111" />Beschuldigte<ls_e xmlns="" idx="a" id="111" />
+ein Strafverfahren wegen Beteiligung an einer <ls_s xmlns="" idx="a" id="143" />kriminellen Organisation<ls_e xmlns="" idx="a" id="143" /> und deren
+Unterstützung (Art. 260ter<lsannot xmlns="" idx="a" id="233" type="lex-ch-bund-sr-h" refstr="StGB Art. 260ter"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Schweizerisches Strafgesetzbuch.">StGB</lsannot>). Im <ls_s xmlns="" idx="a" id="148" />Rahmen<ls_e xmlns="" idx="a" id="148" /> dieses Strafverfahrens gelangte die Procura
+della Repubblica presso il Tribunale di Reggio Calabria mit <ls_s xmlns="" idx="a" id="193" />Rechtshilfeersuchen<ls_e xmlns="" idx="a" id="193" /> vom
+22. August 2014 an die <ls_s xmlns="" idx="a" id="159" />Schweiz<ls_e xmlns="" idx="a" id="159" /> und ersuchte um die <ls_s xmlns="" idx="a" id="161" />Sicherstellung<ls_e xmlns="" idx="a" id="161" /> von Beweismitteln.
+Unter Bezugnahme auf das <ls_s xmlns="" idx="a" id="137" />italienische<ls_e xmlns="" idx="a" id="137" /> <ls_s xmlns="" idx="a" id="193" />Rechtshilfeersuchen<ls_e xmlns="" idx="a" id="193" /> ordnete die Bundesanwaltschaft
+(nachfolgend "BA") mit als "<ls_s xmlns="" idx="a" id="183" />Durchsuchungs<ls_e xmlns="" idx="a" id="183" />- und Beschlagnahmebefehl Art. 241<lsannot xmlns="" idx="a" id="234" type="lex-ch-bund-sr-h" refstr="StPO Art. 241"></lsannot> ff. <ls_s xmlns="" idx="a" id="203" /><lsannot xmlns="" idx="a" type="LEXINFO" title="Schweizerische Strafprozessordnung vom 5. Oktober 2007">StPO</lsannot><ls_e xmlns="" idx="a" id="203" />"
+bezeichneter <ls_s xmlns="" idx="a" id="206" />Verfügung<ls_e xmlns="" idx="a" id="206" /> vom 25. August 2014 eine <ls_s xmlns="" idx="a" id="133" />Hausdurchsuchung<ls_e xmlns="" idx="a" id="133" /> am Wohnort von A. in
+Z. (<ls_s xmlns="" idx="a" id="159" />Schweiz<ls_e xmlns="" idx="a" id="159" />) an, wobei als <ls_s xmlns="" idx="a" id="154" />Rechtsmittel<ls_e xmlns="" idx="a" id="154" /> die <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> nach Art. 393<lsannot xmlns="" idx="a" id="235" type="lex-ch-bund-sr-h" refstr="StPO Art. 393"></lsannot> ff. <ls_s xmlns="" idx="a" id="203" /><lsannot xmlns="" idx="a" type="LEXINFO" title="Schweizerische Strafprozessordnung vom 5. Oktober 2007">StPO</lsannot><ls_e xmlns="" idx="a" id="203" /> an die
+<ls_s xmlns="" idx="a" id="113" />Beschwerdekammer<ls_e xmlns="" idx="a" id="113" /> des <ls_s xmlns="" idx="a" id="118" />Bundesstrafgerichts<ls_e xmlns="" idx="a" id="118" /> angegeben wurde (act. 1.2). Am 28. August 2014
+führte die BA unter Mitwirkung der Bundeskriminalpolizei die <ls_s xmlns="" idx="a" id="133" />Hausdurchsuchung<ls_e xmlns="" idx="a" id="133" /> durch und
+stellte diverse Gegenstände <ls_s xmlns="" idx="a" id="201" />sicher<ls_e xmlns="" idx="a" id="201" /> (act. 1.4).
+
+B. Mit Schreiben vom 2. September 2014 gelangte <ls_s xmlns="" idx="a" id="149" />Rechtsanwalt<ls_e xmlns="" idx="a" id="149" /> Daniel Speck (nachfolgend
+"RA Speck") im <ls_s xmlns="" idx="a" id="145" />Namen<ls_e xmlns="" idx="a" id="145" /> und im Auftrag der <ls_s xmlns="" idx="a" id="119" />Ehegatten<ls_e xmlns="" idx="a" id="119" /> A. und B. an die BA und erklärte, es
+sei zu verhindern, dass die anlässlich der <ls_s xmlns="" idx="a" id="133" />Hausdurchsuchung<ls_e xmlns="" idx="a" id="133" /> beschlagnahmten Fotos und
+Fotoalben nach <ls_s xmlns="" idx="a" id="136" />Italien<ls_e xmlns="" idx="a" id="136" /> geschickt würden, <ls_s xmlns="" idx="a" id="172" />weil<ls_e xmlns="" idx="a" id="172" /> die Befürchtung bestehe, dass sie dann
+nicht mehr erhältlich gemacht werden könnten. B. habe nichts dagegen, dass die Fotos
+kopiert würden. Weiter teilte RA Speck der BA mit, dass seine Mandanten die
+sichergestellten <ls_s xmlns="" idx="a" id="144" />Mobiltelefone<ls_e xmlns="" idx="a" id="144" /> der Marke Samsung, die beiden Laptops Acer LXR sowie das
+iPad 2 (nach erfolgter Spiegelung) zurück haben möchten, <ls_s xmlns="" idx="a" id="172" />weil<ls_e xmlns="" idx="a" id="172" /> sie diese Geräte
+geschäftlich und privat benötigen würden. Er ersuchte die BA zudem um <ls_s xmlns="" idx="a" id="189" />Mitteilung<ls_e xmlns="" idx="a" id="189" />, bis
+wann mit einer Rückgabe der Geräte gerechnet werden könne. Falls die BA nicht bereit sei,
+die Geräte zurückzugeben, würde er entsprechend auf dem Beschwerdeweg vorgehen (act.
+1.1).
+
+C. Mit Antwortschreiben vom 4. September 2014 teilte die BA RA Speck mit, dass aufgrund
+der beträchtlichen Anzahl an <ls_s xmlns="" idx="a" id="209" />Zwangsmassnahmen<ls_e xmlns="" idx="a" id="209" /> und den dabei erfolgten umfangreichen
+<ls_s xmlns="" idx="a" id="161" />Sicherstellungen<ls_e xmlns="" idx="a" id="161" /> die Auswertung der <ls_s xmlns="" idx="a" id="115" />Beweismittel<ls_e xmlns="" idx="a" id="115" /> noch nicht habe abgeschlossen werden
+können. Zur Zeit könne nicht vorhergesagt werden, wann mit einer Rückgabe der Geräte
+gerechnet werden könne. Abschliessend hielt die BA fest, sie würde RA Speck umgehend
+<ls_s xmlns="" idx="a" id="179" />benachrichtigen<ls_e xmlns="" idx="a" id="179" /> und ihm das weitere Vorgehen kommunizieren, sobald eine <ls_s xmlns="" idx="a" id="100" />Akteneinsicht<ls_e xmlns="" idx="a" id="100" />
+möglich sei (act. 4.1). In der Folge gelangte RA Speck im <ls_s xmlns="" idx="a" id="145" />Namen<ls_e xmlns="" idx="a" id="145" /> und im Auftrag der
+<ls_s xmlns="" idx="a" id="119" />Ehegatten<ls_e xmlns="" idx="a" id="119" /> A. und B. mit <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> vom 8. September 2014 an dieses Gericht (der Betreff
+der <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> lautet "<ls_s xmlns="" idx="a" id="156" />Rechtsverzögerung<ls_e xmlns="" idx="a" id="156" />/Rechtsverweigerung") und beantragt, die BA sei
+anzuweisen, den <ls_s xmlns="" idx="a" id="112" />Beschwerdeführern<ls_e xmlns="" idx="a" id="112" /> die namentlich bezeichneten vier <ls_s xmlns="" idx="a" id="144" />Mobiltelefone<ls_e xmlns="" idx="a" id="144" />, zwei
+Laptops, einen iPad und sämtliche beschlagnahmten <ls_s xmlns="" idx="a" id="125" />Fotografien<ls_e xmlns="" idx="a" id="125" /> zurückzugeben (act. 1).
+
+D. Mit Schreiben vom 10. September 2014 wurde RA Speck im Sinne von Art. 52 Abs. 2<lsannot xmlns="" idx="a" id="236" type="lex-ch-bund-sr-h" refstr="VwVG Art. 52 Abs.2"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Verwaltungsverfahren.">VwVG</lsannot>
+eine kurze Nachfrist bis 15. September 2014 zur Verbesserung der <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> eingeräumt -
+unter Hinweis auf die Säumnisfolgen gemäss Art. 52 Abs. 3<lsannot xmlns="" idx="a" id="237" type="lex-ch-bund-sr-h" refstr="VwVG Art. 52 Abs.3"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Verwaltungsverfahren.">VwVG</lsannot>. Zudem wurde der
+<ls_s xmlns="" idx="a" id="112" />Beschwerdeführer<ls_e xmlns="" idx="a" id="112" /> aufgefordert, bis 22. September 2014 einen <ls_s xmlns="" idx="a" id="142" />Kostenvorschuss<ls_e xmlns="" idx="a" id="142" /> von
+CHF 4'000.-- zu leisten - unter Hinweis auf die Säumnisfolgen (act. 3).
+
+E. Mit Schreiben vom 15. September 2014 bestritt RA Speck u.a. die Anwendbarkeit des VwVG
+und machte geltend, dass seine <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> nach den Bestimmungen der <ls_s xmlns="" idx="a" id="203" />StPO<ls_e xmlns="" idx="a" id="203" /> zu behandeln
+sei, was die <ls_s xmlns="" idx="a" id="123" />Erhebung<ls_e xmlns="" idx="a" id="123" /> eines <ls_s xmlns="" idx="a" id="142" />Kostenvorschusses<ls_e xmlns="" idx="a" id="142" /> ausschliesse (act. 4).
+
+F. Am 16. September 2014 wurde RA Speck mitgeteilt, dass an der <ls_s xmlns="" idx="a" id="123" />Erhebung<ls_e xmlns="" idx="a" id="123" /> des
+<ls_s xmlns="" idx="a" id="142" />Kostenvorschusses<ls_e xmlns="" idx="a" id="142" /> festgehalten werde (act. 5).
+
+G. Die BA eröffnete RA Speck am 16. September 2014, dass die von den <ls_s xmlns="" idx="a" id="112" />Beschwerdeführern<ls_e xmlns="" idx="a" id="112" />
+zurückverlangten elektronischen Geräte abgeholt werden könnten (act. 6).
+
+H. Am 19. September 2014 teilte RA Speck diesem Gericht mit, dass die <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" />
+betreffend die elektronischen Geräte durch die obgenannte Rückgabe <ls_s xmlns="" idx="a" id="128" />gegenstandslos<ls_e xmlns="" idx="a" id="128" />
+geworden sei und die <ls_s xmlns="" idx="a" id="112" />Beschwerdeführer<ls_e xmlns="" idx="a" id="112" /> betreffend die restlichen mit <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> vom 8.
+September 2014 zurückverlangten Gegenstände an der <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> nicht festhielten (act. 6),
+was der BA am 22. September 2014 zur <ls_s xmlns="" idx="a" id="139" />Kenntnis<ls_e xmlns="" idx="a" id="139" /> gebracht wurde (act. 7).
+
+Die <ls_s xmlns="" idx="a" id="113" />Beschwerdekammer<ls_e xmlns="" idx="a" id="113" /> zieht in <ls_s xmlns="" idx="a" id="187" />Erwägung<ls_e xmlns="" idx="a" id="187" />:
+
+1.
+
+1.1 Für die <ls_s xmlns="" idx="a" id="150" />Rechtshilfe<ls_e xmlns="" idx="a" id="150" /> zwischen <ls_s xmlns="" idx="a" id="136" />Italien<ls_e xmlns="" idx="a" id="136" /> und der <ls_s xmlns="" idx="a" id="159" />Schweiz<ls_e xmlns="" idx="a" id="159" /> sind in erster Linie das
+<ls_s xmlns="" idx="a" id="124" />Europäische Übereinkommen<ls_e xmlns="" idx="a" id="124" /> über die <ls_s xmlns="" idx="a" id="152" />Rechtshilfe in Strafsachen<ls_e xmlns="" idx="a" id="152" /> vom 20. April 1959 (<lsannot xmlns="" idx="a" type="LEXDEBUG" title="[05] 0.351.913.61 =&gt; ch-bund-sr Offset(5228). exact lexdomain due CH-SR SystNr specification."></lsannot>EUeR;
+<lsannot xmlns="" idx="a" id="211" type="lex-ch-bund-sr-h" refstr="SR-0.351.1">SR</lsannot> 0.351.1) sowie der zwischen ihnen abgeschlossene Zusatzvertrag vom 13. November 1969
+(ZV-D/<lsannot xmlns="" idx="a" type="LEXDEBUG" title="[05] 0.351.913.61 =&gt; ch-bund-sr Offset(5328). exact lexdomain due CH-SR SystNr specification."></lsannot>EUeR; <lsannot xmlns="" idx="a" id="212" type="lex-ch-bund-sr-h" refstr="SR-0.351.913.61">SR</lsannot> 0.351.913.61) massgebend. Überdies gelangen die Bestimmungen der Art. 48
+ff. des <ls_s xmlns="" idx="a" id="175" />Übereinkommens<ls_e xmlns="" idx="a" id="175" /> vom 19. Juni 1990 zur <ls_s xmlns="" idx="a" id="182" />Durchführung<ls_e xmlns="" idx="a" id="182" /> des <ls_s xmlns="" idx="a" id="175" />Übereinkommens<ls_e xmlns="" idx="a" id="175" /> von <ls_s xmlns="" idx="a" id="197" />Schengen<ls_e xmlns="" idx="a" id="197" />
+vom 14. Juni 1985 (<ls_s xmlns="" idx="a" id="198" />Schengener Durchführungsübereinkommen<ls_e xmlns="" idx="a" id="198" />, <ls_s xmlns="" idx="a" id="200" />SDÜ<ls_e xmlns="" idx="a" id="200" />; <lsannot xmlns="" idx="a" id="230" type="lex-int-eu-amtsblatt" refstr="EU-Amtsblatt 2000 L239">ABl. L 239 vom
+22. September 2000</lsannot>, S. 19-62) zur Anwendung, wobei die zwischen den <ls_s xmlns="" idx="a" id="170" />Vertragsparteien<ls_e xmlns="" idx="a" id="170" />
+geltenden weitergehenden Bestimmungen aufgrund bilateraler <ls_s xmlns="" idx="a" id="176" />Abkommen<ls_e xmlns="" idx="a" id="176" /> unberührt bleiben
+(Art. 48 Abs. 2 <ls_s xmlns="" idx="a" id="200" />SDÜ<ls_e xmlns="" idx="a" id="200" />).
+
+1.2 Soweit das <ls_s xmlns="" idx="a" id="202" />Staatsvertragsrecht<ls_e xmlns="" idx="a" id="202" /> bestimmte <ls_s xmlns="" idx="a" id="126" />Fragen<ls_e xmlns="" idx="a" id="126" /> nicht abschliessend regelt, gelangen
+das Bundesgesetz über <ls_s xmlns="" idx="a" id="135" />internationale<ls_e xmlns="" idx="a" id="135" /> <ls_s xmlns="" idx="a" id="152" />Rechtshilfe in Strafsachen<ls_e xmlns="" idx="a" id="152" /> vom 20. März 1981 (<lsannot xmlns="" idx="a" type="LEXDEBUG" title="[05] IRSG =&gt; ch-bund-sr Offset(5944). exact lexdomain due CH-SR SystNr specification."></lsannot>IRSG;
+<lsannot xmlns="" idx="a" id="213" type="lex-ch-bund-sr-h" refstr="SR-351.1">SR</lsannot> 351.1) und die dazugehörende <ls_s xmlns="" idx="a" id="169" />Verordnung<ls_e xmlns="" idx="a" id="169" /> vom 24. Februar 1982 (<lsannot xmlns="" idx="a" type="LEXDEBUG" title="[05] IRSV =&gt; ch-bund-sr Offset(6015). exact lexdomain due CH-SR SystNr specification."></lsannot>IRSV; <lsannot xmlns="" idx="a" id="214" type="lex-ch-bund-sr-h" refstr="SR-351.11">SR</lsannot> 351.11) zur
+Anwendung (Art. 1 Abs. 1<lsannot xmlns="" idx="a" id="238" type="lex-ch-bund-sr-h" refstr="IRSG Art. 1 Abs.1"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über internationale Rechtshilfe in Strafsachen.">IRSG</lsannot>; BGE <lsannot xmlns="" idx="a" id="217" type="jud-ch-bund-bge" refstr="BGE-130-II-337">130 II 337</lsannot> E. 1 S. 339; <lsannot xmlns="" idx="a" id="218" type="jud-ch-bund-bge" refstr="BGE-128-II-355">128 II 355</lsannot> E. 1 S. 357; <lsannot xmlns="" idx="a" id="219" type="jud-ch-bund-bge" refstr="BGE-124-II-180">124 II
+180</lsannot> E. 1a S. 181). Das innerstaatliche Recht gilt nach dem Günstigkeitsprinzip auch dann,
+wenn dieses geringere Anforderungen an die <ls_s xmlns="" idx="a" id="150" />Rechtshilfe<ls_e xmlns="" idx="a" id="150" /> stellt (BGE <lsannot xmlns="" idx="a" id="220" type="jud-ch-bund-bge" refstr="BGE-137-IV-33">137 <ls_s xmlns="" idx="a" id="138" />IV<ls_e xmlns="" idx="a" id="138" /> 33</lsannot>, E. 2.2.2;
+<lsannot xmlns="" idx="a" id="221" type="jud-ch-bund-bge" refstr="BGE-136-IV-82">136 <ls_s xmlns="" idx="a" id="138" />IV<ls_e xmlns="" idx="a" id="138" /> 82</lsannot>, E. 3.1; <lsannot xmlns="" idx="a" id="222" type="jud-ch-bund-bge" refstr="BGE-129-II-462">129 II 462</lsannot> E. 1.1 S. 464, mit Hinweisen). Vorbehalten bleibt die
+Wahrung der Menschenrechte (BGE <lsannot xmlns="" idx="a" id="223" type="jud-ch-bund-bge" refstr="BGE-135-IV-212">135 <ls_s xmlns="" idx="a" id="138" />IV<ls_e xmlns="" idx="a" id="138" /> 212</lsannot> E. 2.3; <lsannot xmlns="" idx="a" id="224" type="jud-ch-bund-bge" refstr="BGE-123-II-595">123 II 595</lsannot> E. 7c).
+
+1.3 Die Bestimmungen der <ls_s xmlns="" idx="a" id="203" />StPO<ls_e xmlns="" idx="a" id="203" /> gelangen analog zur Anwendung, wenn das IRSG direkt darauf
+verweist (Heimgartner, Kommentar zur <ls_s xmlns="" idx="a" id="160" />Schweizerischen Strafprozessordnung<ls_e xmlns="" idx="a" id="160" />, 2. Aufl.,
+Zürich 2014, Art. 54 N. 4). Für die BA, als <ls_s xmlns="" idx="a" id="103" />ausführende<ls_e xmlns="" idx="a" id="103" /> <ls_s xmlns="" idx="a" id="107" />Behörde<ls_e xmlns="" idx="a" id="107" />, gilt subsidiär zum IRSG
+die <ls_s xmlns="" idx="a" id="203" />StPO<ls_e xmlns="" idx="a" id="203" /> auch hinsichtlich der Modalitäten der übrigen akzessorischen
+<ls_s xmlns="" idx="a" id="153" />Rechtshilfemassnahmen<ls_e xmlns="" idx="a" id="153" /> gemäss Art. 63<lsannot xmlns="" idx="a" id="239" type="lex-ch-bund-sr-h" refstr="IRSG Art. 63"></lsannot> ff. <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über internationale Rechtshilfe in Strafsachen.">IRSG</lsannot> (vgl. Art. 12 Abs. 1<lsannot xmlns="" idx="a" id="240" type="lex-ch-bund-sr-h" refstr="IRSG Art. 12 Abs.1"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über internationale Rechtshilfe in Strafsachen.">IRSG</lsannot> und Art. 54<lsannot xmlns="" idx="a" id="241" type="lex-ch-bund-sr-h" refstr="StPO Art. 54"></lsannot> <ls_s xmlns="" idx="a" id="203" /><lsannot xmlns="" idx="a" type="LEXINFO" title="Schweizerische Strafprozessordnung vom 5. Oktober 2007">StPO</lsannot><ls_e xmlns="" idx="a" id="203" />;
+Heimgartner, a.a.O., Art. 54 N. 5; Keller, Praxis der <ls_s xmlns="" idx="a" id="152" />Rechtshilfe in Strafsachen<ls_e xmlns="" idx="a" id="152" /> -
+ausgewählte formell- und materiellrechtliche Fragestellungen, in:
+Breitenmoser/Ehrenzeller [Hrsg.], Aktuelle <ls_s xmlns="" idx="a" id="126" />Fragen<ls_e xmlns="" idx="a" id="126" /> der <ls_s xmlns="" idx="a" id="135" />internationalen<ls_e xmlns="" idx="a" id="135" /> Amts- und
+<ls_s xmlns="" idx="a" id="150" />Rechtshilfe<ls_e xmlns="" idx="a" id="150" />, St. Gallen 2009, S. 64 f.).
+
+1.4 Auf das Beschwerdeverfahren vor dem <ls_s xmlns="" idx="a" id="118" />Bundesstrafgericht<ls_e xmlns="" idx="a" id="118" /> in <ls_s xmlns="" idx="a" id="135" />internationalen<ls_e xmlns="" idx="a" id="135" />
+Rechtshilfeangelegenheiten gelangt subsidiär zu den einschlägigen Rechtshilfeerlassen das
+VwVG zur Anwendung (Art. 37 Abs. 2 lit. a<lsannot xmlns="" idx="a" id="242" type="lex-ch-bund-sr-h" refstr="StBOG Art. 37 Abs.2 Bst.a"></lsannot> i.V.m. Art. 39 Abs. 2 lit. b<lsannot xmlns="" idx="a" id="243" type="lex-ch-bund-sr-h" refstr="StBOG Art. 39 Abs.2 Bst.b"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz vom 19. März 2010 über die Organisation der Strafbehörden des Bundes">StBOG</lsannot>; vgl. auch
+Art. 12 Abs. 1<lsannot xmlns="" idx="a" id="240" type="lex-ch-bund-sr-h" refstr="IRSG Art. 12 Abs.1"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über internationale Rechtshilfe in Strafsachen.">IRSG</lsannot>).
+
+2.
+
+2.1 Nach der Vorprüfung i.S.v. Art. 80 Abs. 1<lsannot xmlns="" idx="a" id="244" type="lex-ch-bund-sr-h" refstr="IRSG Art. 80 Abs.1"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über internationale Rechtshilfe in Strafsachen.">IRSG</lsannot> erlässt die <ls_s xmlns="" idx="a" id="103" />ausführende<ls_e xmlns="" idx="a" id="103" /> <ls_s xmlns="" idx="a" id="107" />Behörde<ls_e xmlns="" idx="a" id="107" /> eine
+summarisch begründete Eintretensverfügung und ordnet die zulässige <ls_s xmlns="" idx="a" id="194" />Rechtshilfehandlung<ls_e xmlns="" idx="a" id="194" />
+an. Erachtet die <ls_s xmlns="" idx="a" id="103" />ausführende<ls_e xmlns="" idx="a" id="103" /> <ls_s xmlns="" idx="a" id="107" />Behörde<ls_e xmlns="" idx="a" id="107" /> das <ls_s xmlns="" idx="a" id="186" />Ersuchen<ls_e xmlns="" idx="a" id="186" /> als ganz oder teilweise erledigt, so
+erlässt sie eine Schlussverfügung (Art. 80d<lsannot xmlns="" idx="a" id="245" type="lex-ch-bund-sr-h" refstr="IRSG Art. 80d"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über internationale Rechtshilfe in Strafsachen.">IRSG</lsannot>). Dieser Schlussverfügung vorangehende
+<ls_s xmlns="" idx="a" id="210" />Zwischenverfügungen<ls_e xmlns="" idx="a" id="210" /> können bei der <ls_s xmlns="" idx="a" id="113" />Beschwerdekammer<ls_e xmlns="" idx="a" id="113" /> des <ls_s xmlns="" idx="a" id="118" />Bundesstrafgerichts<ls_e xmlns="" idx="a" id="118" /> selbständig
+angefochten werden, sofern sie durch die <ls_s xmlns="" idx="a" id="110" />Beschlagnahme<ls_e xmlns="" idx="a" id="110" /> von <ls_s xmlns="" idx="a" id="168" />Vermögenswerten<ls_e xmlns="" idx="a" id="168" /> und
+Wertgegenständen oder durch die <ls_s xmlns="" idx="a" id="177" /><ls_s xmlns="" idx="a" id="102" />Anwesenheit<ls_e xmlns="" idx="a" id="177" /><ls_e xmlns="" idx="a" id="102" /> von am <ls_s xmlns="" idx="a" id="104" />ausländischen<ls_e xmlns="" idx="a" id="104" /> <ls_s xmlns="" idx="a" id="191" />Prozess<ls_e xmlns="" idx="a" id="191" /> beteiligten
+<ls_s xmlns="" idx="a" id="146" />Personen<ls_e xmlns="" idx="a" id="146" /> einen unmittelbaren und nicht wieder gutzumachenden Nachteil bewirken (Art. 80e
+Abs. 2<lsannot xmlns="" idx="a" id="246" type="lex-ch-bund-sr-h" refstr="IRSG Art. 80e Abs.2"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über internationale Rechtshilfe in Strafsachen.">IRSG</lsannot>).
+
+2.2 Die Beschwerdegegnerin bezeichnete die <ls_s xmlns="" idx="a" id="206" />Verfügung<ls_e xmlns="" idx="a" id="206" /> vom 25. August 2014 als "<ls_s xmlns="" idx="a" id="183" />Durchsuchungs<ls_e xmlns="" idx="a" id="183" />-
+und Beschlagnahmebefehl Art. 241<lsannot xmlns="" idx="a" id="234" type="lex-ch-bund-sr-h" refstr="StPO Art. 241"></lsannot> ff. <ls_s xmlns="" idx="a" id="203" /><lsannot xmlns="" idx="a" type="LEXINFO" title="Schweizerische Strafprozessordnung vom 5. Oktober 2007">StPO</lsannot><ls_e xmlns="" idx="a" id="203" />" und ordnete damit eine <ls_s xmlns="" idx="a" id="133" />Hausdurchsuchung<ls_e xmlns="" idx="a" id="133" /> am
+Wohnort von A. in Z. (<ls_s xmlns="" idx="a" id="159" />Schweiz<ls_e xmlns="" idx="a" id="159" />) an. Als <ls_s xmlns="" idx="a" id="154" />Rechtsmittel<ls_e xmlns="" idx="a" id="154" /> wurde die <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> nach Art. 393<lsannot xmlns="" idx="a" id="235" type="lex-ch-bund-sr-h" refstr="StPO Art. 393"></lsannot>
+ff. <ls_s xmlns="" idx="a" id="203" /><lsannot xmlns="" idx="a" type="LEXINFO" title="Schweizerische Strafprozessordnung vom 5. Oktober 2007">StPO</lsannot><ls_e xmlns="" idx="a" id="203" /> an die <ls_s xmlns="" idx="a" id="113" />Beschwerdekammer<ls_e xmlns="" idx="a" id="113" /> des <ls_s xmlns="" idx="a" id="118" />Bundesstrafgerichts<ls_e xmlns="" idx="a" id="118" /> angegeben (act. 1.2), obwohl für
+den prozessualen <ls_s xmlns="" idx="a" id="195" />Rechtsschutz<ls_e xmlns="" idx="a" id="195" /> gegen <ls_s xmlns="" idx="a" id="153" />Rechtshilfemassnahmen<ls_e xmlns="" idx="a" id="153" /> nicht die <ls_s xmlns="" idx="a" id="203" />StPO<ls_e xmlns="" idx="a" id="203" />, sondern das
+IRSG massgeblich ist (<ls_s xmlns="" idx="a" id="205" />Urteil<ls_e xmlns="" idx="a" id="205" /> des <ls_s xmlns="" idx="a" id="117" />Bundesgerichts<ls_e xmlns="" idx="a" id="117" /> <lsannot xmlns="" idx="a" id="225" type="jud-ch-bund-bgu" refstr="1B_563/2011">1B_563/2011</lsannot> vom 16. Januar 2012, E. 2.1).
+Entsprechend erweist <ls_s xmlns="" idx="a" id="201" />sich<ls_e xmlns="" idx="a" id="201" /> die <ls_s xmlns="" idx="a" id="155" />Rechtsmittelbelehrung<ls_e xmlns="" idx="a" id="155" /> der <ls_s xmlns="" idx="a" id="206" />Verfügung<ls_e xmlns="" idx="a" id="206" /> vom 25. August 2014 als
+unzutreffend.
+
+2.3 Gegen das unrechtmässige Verweigern oder Verzögern einer <ls_s xmlns="" idx="a" id="206" />Verfügung<ls_e xmlns="" idx="a" id="206" /> kann - wie
+vorliegend - gestützt auf Art. 46a<lsannot xmlns="" idx="a" id="247" type="lex-ch-bund-sr-h" refstr="VwVG Art. 46a"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Verwaltungsverfahren.">VwVG</lsannot> <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> geführt werden (siehe zuletzt
+<ls_s xmlns="" idx="a" id="121" />Entscheid<ls_e xmlns="" idx="a" id="121" /> des <ls_s xmlns="" idx="a" id="118" />Bundesstrafgerichts<ls_e xmlns="" idx="a" id="118" /> <lsannot xmlns="" idx="a" id="227" type="jud-ch-bund-bstger" refstr="BSTGER-RR.2013.268">RR.2013.268</lsannot> vom 27. März 2014, E. 1.3).
+
+2.4 Das Beschwerdeverfahren betreffend die elektronischen Geräte ist durch die Rückgabe
+derselben (siehe lit. G.) <ls_s xmlns="" idx="a" id="128" />gegenstandslos<ls_e xmlns="" idx="a" id="128" /> geworden und ist entsprechend abzuschreiben.
+
+Nach konstanter Praxis gelangt im Beschwerdeverfahren vor dem <ls_s xmlns="" idx="a" id="118" />Bundesstrafgericht<ls_e xmlns="" idx="a" id="118" /> für den
+<ls_s xmlns="" idx="a" id="121" />Entscheid<ls_e xmlns="" idx="a" id="121" /> über die <ls_s xmlns="" idx="a" id="188" />Kosten<ls_e xmlns="" idx="a" id="188" />- und Entschädigungsfolgen bei <ls_s xmlns="" idx="a" id="128" />Gegenstandslosigkeit<ls_e xmlns="" idx="a" id="128" /> Art. 72<lsannot xmlns="" idx="a" id="248" type="lex-ch-bund-sr-h" refstr="SR-273 Art. 72"></lsannot> des
+Bundesgesetzes vom 4. Dezember 1947 über den Bundeszivilprozess (<lsannot xmlns="" idx="a" type="LEXDEBUG" title="[05] BZP =&gt; ch-bund-sr Offset(9434). exact lexdomain due CH-SR SystNr specification."></lsannot>BZP; <lsannot xmlns="" idx="a" id="215" type="lex-ch-bund-sr-h" refstr="SR-273">SR</lsannot> 273) sinngemäss
+zur Anwendung (siehe zuletzt <ls_s xmlns="" idx="a" id="121" />Entscheid<ls_e xmlns="" idx="a" id="121" /> des <ls_s xmlns="" idx="a" id="118" />Bundesstrafgerichts<ls_e xmlns="" idx="a" id="118" /> <lsannot xmlns="" idx="a" id="228" type="jud-ch-bund-bstger" refstr="BSTGER-RR.2013.229">RR.2013.229</lsannot> vom
+3. Juli 2014, E. 3). Gemäss dieser Bestimmung entscheidet das Gericht mit <ls_s xmlns="" idx="a" id="164" />summarischer
+Begründung<ls_e xmlns="" idx="a" id="164" /> über die <ls_s xmlns="" idx="a" id="192" />Prozesskosten<ls_e xmlns="" idx="a" id="192" /> aufgrund der Sachlage vor Eintritt des
+Erledigungsgrundes.
+
+RA Speck ist bereits zehn <ls_s xmlns="" idx="a" id="165" />Tage<ls_e xmlns="" idx="a" id="165" /> nach <ls_s xmlns="" idx="a" id="161" />Sicherstellung<ls_e xmlns="" idx="a" id="161" /> der zur Diskussion stehenden
+elektronischen Geräte an dieses Gericht gelangt und hat deren Rückgabe nach erfolgter
+Spiegelung verlangt. Der <ls_s xmlns="" idx="a" id="204" />Umstand<ls_e xmlns="" idx="a" id="204" />, dass die BA die elektronischen Geräte nicht <ls_s xmlns="" idx="a" id="134" />innerhalb<ls_e xmlns="" idx="a" id="134" />
+von 10 <ls_s xmlns="" idx="a" id="165" />Tagen<ls_e xmlns="" idx="a" id="165" /> ausgewertet hat und nicht vorhersagen konnte, wann genau mit einer Rückgabe
+der Geräte zu rechnen ist, vermag keine <ls_s xmlns="" idx="a" id="156" />Rechtsverzögerung<ls_e xmlns="" idx="a" id="156" />/Rechtsverweigerung zu
+<ls_s xmlns="" idx="a" id="178" />begründen<ls_e xmlns="" idx="a" id="178" />. Demnach wäre die <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> betreffend die elektronischen Geräte abgewiesen
+worden, weswegen die diesbezüglichen <ls_s xmlns="" idx="a" id="188" />Kosten<ls_e xmlns="" idx="a" id="188" /> den <ls_s xmlns="" idx="a" id="112" />Beschwerdeführern<ls_e xmlns="" idx="a" id="112" /> aufzuerlegen sind.
+
+2.5 Das Beschwerdeverfahren ist im Übrigen zufolge Rückzugs (sieh lit. H.) der <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" />
+als erledigt abzuschreiben, wobei der <ls_s xmlns="" idx="a" id="112" />Beschwerdeführer<ls_e xmlns="" idx="a" id="112" />, der seine <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> zurückzieht,
+grundsätzlich als unterliegende <ls_s xmlns="" idx="a" id="190" />Partei<ls_e xmlns="" idx="a" id="190" /> zu gelten und folglich gemäss Art. 63 Abs. 1<lsannot xmlns="" idx="a" id="249" type="lex-ch-bund-sr-h" refstr="VwVG Art. 63 Abs.1"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Verwaltungsverfahren.">VwVG</lsannot>
+i.V.m. Art. 39 Abs. 2 lit. b<lsannot xmlns="" idx="a" id="243" type="lex-ch-bund-sr-h" refstr="StBOG Art. 39 Abs.2 Bst.b"></lsannot> und Art. 37 Abs. 2 lit. a<lsannot xmlns="" idx="a" id="242" type="lex-ch-bund-sr-h" refstr="StBOG Art. 37 Abs.2 Bst.a"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz vom 19. März 2010 über die Organisation der Strafbehörden des Bundes">StBOG</lsannot> die <ls_s xmlns="" idx="a" id="130" />Gerichtskosten<ls_e xmlns="" idx="a" id="130" /> zu tragen
+hat (siehe zuletzt <ls_s xmlns="" idx="a" id="121" />Entscheid<ls_e xmlns="" idx="a" id="121" /> des <ls_s xmlns="" idx="a" id="118" />Bundesstrafgerichts<ls_e xmlns="" idx="a" id="118" /> <lsannot xmlns="" idx="a" id="229" type="jud-ch-bund-bstger" refstr="BSTGER-RR.2014.232">RR.2014.232</lsannot> vom 19. September 2014).
+
+2.6 Für die <ls_s xmlns="" idx="a" id="109" />Berechnung<ls_e xmlns="" idx="a" id="109" /> der <ls_s xmlns="" idx="a" id="129" />Gerichtsgebühren<ls_e xmlns="" idx="a" id="129" /> gelangt das <ls_s xmlns="" idx="a" id="196" />Reglement<ls_e xmlns="" idx="a" id="196" /> vom 31. August 2010 des
+<ls_s xmlns="" idx="a" id="118" />Bundesstrafgerichts<ls_e xmlns="" idx="a" id="118" /> über die <ls_s xmlns="" idx="a" id="188" />Kosten<ls_e xmlns="" idx="a" id="188" />, <ls_s xmlns="" idx="a" id="127" />Gebühren<ls_e xmlns="" idx="a" id="127" /> und Entschädigungen in Bundesstrafverfahren
+(<lsannot xmlns="" idx="a" type="LEXDEBUG" title="[05] BStKR =&gt; ch-bund-sr Offset(10945). exact lexdomain due CH-SR SystNr specification."></lsannot>BStKR; <lsannot xmlns="" idx="a" id="216" type="lex-ch-bund-sr-h" refstr="SR-173.713.162">SR</lsannot> 173.713.162) zur Anwendung (Art. 63 Abs. 5<lsannot xmlns="" idx="a" id="250" type="lex-ch-bund-sr-h" refstr="VwVG Art. 63 Abs.5"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Verwaltungsverfahren.">VwVG</lsannot> i.V.m. Art. 53 Abs. 2 lit. a<lsannot xmlns="" idx="a" id="251" type="lex-ch-bund-sr-h" refstr="StBOG Art. 53 Abs.2 Bst.a"></lsannot>
+<lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz vom 19. März 2010 über die Organisation der Strafbehörden des Bundes">StBOG</lsannot>). Unter Berücksichtigung aller <ls_s xmlns="" idx="a" id="166" />Umstände<ls_e xmlns="" idx="a" id="166" /> ist die <ls_s xmlns="" idx="a" id="129" />Gerichtsgebühr<ls_e xmlns="" idx="a" id="129" /> vorliegend auf
+Fr. 1'000.-- anzusetzen und den <ls_s xmlns="" idx="a" id="112" />Beschwerdeführern<ls_e xmlns="" idx="a" id="112" /> unter solidarischer Haftbarkeit
+aufzuerlegen.
+
+
+Demnach erkennt die <ls_s xmlns="" idx="a" id="113" />Beschwerdekammer<ls_e xmlns="" idx="a" id="113" />:
+
+1. Das Beschwerdeverfahren wird betreffend die elektronischen Geräte zufolge
+<ls_s xmlns="" idx="a" id="128" />Gegenstandslosigkeit<ls_e xmlns="" idx="a" id="128" /> und im Übrigen zufolge Rückzugs der <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> als erledigt
+abgeschrieben.
+
+2. Die <ls_s xmlns="" idx="a" id="129" />Gerichtsgebühr<ls_e xmlns="" idx="a" id="129" /> von Fr. 1'000.-- wird den <ls_s xmlns="" idx="a" id="112" />Beschwerdeführern<ls_e xmlns="" idx="a" id="112" /> mit solidarischer
+Haftbarkeit auferlegt.
+
+<ls_s xmlns="" idx="a" id="108" />Bellinzona<ls_e xmlns="" idx="a" id="108" />, 20. Oktober 2014
+
+Im <ls_s xmlns="" idx="a" id="145" />Namen<ls_e xmlns="" idx="a" id="145" /> der <ls_s xmlns="" idx="a" id="113" />Beschwerdekammer<ls_e xmlns="" idx="a" id="113" />
+des <ls_s xmlns="" idx="a" id="118" />Bundesstrafgerichts<ls_e xmlns="" idx="a" id="118" />
+
+Der <ls_s xmlns="" idx="a" id="147" />Präsident<ls_e xmlns="" idx="a" id="147" />: Der <ls_s xmlns="" idx="a" id="131" />Gerichtsschreiber<ls_e xmlns="" idx="a" id="131" />:
+
+<ls_s xmlns="" idx="a" id="208" />Zustellung<ls_e xmlns="" idx="a" id="208" /> an
+
+- <ls_s xmlns="" idx="a" id="149" />Rechtsanwalt<ls_e xmlns="" idx="a" id="149" /> Daniel Speck
+
+- Bundesanwaltschaft
+
+- <ls_s xmlns="" idx="a" id="116" />Bundesamt für Justiz<ls_e xmlns="" idx="a" id="116" />, Fachbereich <ls_s xmlns="" idx="a" id="150" />Rechtshilfe<ls_e xmlns="" idx="a" id="150" />
+
+<ls_s xmlns="" idx="a" id="155" />Rechtsmittelbelehrung<ls_e xmlns="" idx="a" id="155" />
+
+Gegen selbständig eröffnete Vor- und <ls_s xmlns="" idx="a" id="174" />Zwischenentscheide<ls_e xmlns="" idx="a" id="174" /> über die <ls_s xmlns="" idx="a" id="173" />Zuständigkeit<ls_e xmlns="" idx="a" id="173" /> und über
+Ausstandsbegehren ist die <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> zulässig (Art. 92 Abs. 1<lsannot xmlns="" idx="a" id="252" type="lex-ch-bund-sr-h" refstr="BGG Art. 92 Abs.1"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Bundesgericht.Bundesgerichtsgesetz">BGG</lsannot>). Diese <ls_s xmlns="" idx="a" id="184" />Entscheide<ls_e xmlns="" idx="a" id="184" />
+können später nicht mehr angefochten werden (Art. 92 Abs. 2<lsannot xmlns="" idx="a" id="253" type="lex-ch-bund-sr-h" refstr="BGG Art. 92 Abs.2"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Bundesgericht.Bundesgerichtsgesetz">BGG</lsannot>).
+
+Auf dem Gebiet der <ls_s xmlns="" idx="a" id="135" />internationalen<ls_e xmlns="" idx="a" id="135" /> <ls_s xmlns="" idx="a" id="152" />Rechtshilfe in Strafsachen<ls_e xmlns="" idx="a" id="152" /> sind andere selbständig
+eröffnete Vor- und <ls_s xmlns="" idx="a" id="174" />Zwischenentscheide<ls_e xmlns="" idx="a" id="174" /> nicht <ls_s xmlns="" idx="a" id="101" />anfechtbar<ls_e xmlns="" idx="a" id="101" />. Vorbehalten bleiben <ls_s xmlns="" idx="a" id="180" />Beschwerden<ls_e xmlns="" idx="a" id="180" />
+gegen <ls_s xmlns="" idx="a" id="184" />Entscheide<ls_e xmlns="" idx="a" id="184" /> über die <ls_s xmlns="" idx="a" id="105" />Auslieferungshaft<ls_e xmlns="" idx="a" id="105" /> sowie über die <ls_s xmlns="" idx="a" id="110" />Beschlagnahme<ls_e xmlns="" idx="a" id="110" /> von
+<ls_s xmlns="" idx="a" id="168" />Vermögenswerten<ls_e xmlns="" idx="a" id="168" /> und Wertgegenständen, sofern sie einen nicht wieder gutzumachenden
+Nachteil bewirken können, oder wenn die Gutheissung der Beschwerde sofort einen <ls_s xmlns="" idx="a" id="121" />Entscheid<ls_e xmlns="" idx="a" id="121" />
+herbeiführen und damit einen bedeutenden Aufwand an Zeit oder <ls_s xmlns="" idx="a" id="188" />Kosten<ls_e xmlns="" idx="a" id="188" /> für ein weitläufiges
+Beweisverfahren ersparen würde (vgl. Art. 93 Abs. 1<lsannot xmlns="" idx="a" id="254" type="lex-ch-bund-sr-h" refstr="BGG Art. 93 Abs.1"></lsannot> und 2<lsannot xmlns="" idx="a" id="255" type="lex-ch-bund-sr-h" refstr="BGG Art. 93 Abs.2"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Bundesgericht.Bundesgerichtsgesetz">BGG</lsannot>). Ist die <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> gegen
+einen Vor- oder <ls_s xmlns="" idx="a" id="174" />Zwischenentscheid<ls_e xmlns="" idx="a" id="174" /> gemäss Art. 93 Abs. 1<lsannot xmlns="" idx="a" id="254" type="lex-ch-bund-sr-h" refstr="BGG Art. 93 Abs.1"></lsannot> und 2<lsannot xmlns="" idx="a" id="255" type="lex-ch-bund-sr-h" refstr="BGG Art. 93 Abs.2"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Bundesgericht.Bundesgerichtsgesetz">BGG</lsannot> nicht zulässig oder
+wurde von ihr kein Gebrauch gemacht, so sind die betreffenden Vor- und <ls_s xmlns="" idx="a" id="174" />Zwischenentscheide<ls_e xmlns="" idx="a" id="174" />
+durch <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> gegen den <ls_s xmlns="" idx="a" id="120" />Endentscheid<ls_e xmlns="" idx="a" id="120" /> <ls_s xmlns="" idx="a" id="101" />anfechtbar<ls_e xmlns="" idx="a" id="101" />, soweit sie <ls_s xmlns="" idx="a" id="201" />sich<ls_e xmlns="" idx="a" id="201" /> auf dessen Inhalt
+auswirken (Art. 93 Abs. 3<lsannot xmlns="" idx="a" id="256" type="lex-ch-bund-sr-h" refstr="BGG Art. 93 Abs.3"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Bundesgericht.Bundesgerichtsgesetz">BGG</lsannot>).
+
+Gegen einen <ls_s xmlns="" idx="a" id="121" />Entscheid<ls_e xmlns="" idx="a" id="121" /> auf dem Gebiet der <ls_s xmlns="" idx="a" id="135" />internationalen<ls_e xmlns="" idx="a" id="135" /> <ls_s xmlns="" idx="a" id="152" />Rechtshilfe in Strafsachen<ls_e xmlns="" idx="a" id="152" /> ist
+die <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> nur zulässig, wenn es <ls_s xmlns="" idx="a" id="201" />sich<ls_e xmlns="" idx="a" id="201" /> um einen <ls_s xmlns="" idx="a" id="114" />besonders bedeutenden Fall<ls_e xmlns="" idx="a" id="114" /> handelt
+(vgl. Art. 84 Abs. 1<lsannot xmlns="" idx="a" id="257" type="lex-ch-bund-sr-h" refstr="BGG Art. 84 Abs.1"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Bundesgericht.Bundesgerichtsgesetz">BGG</lsannot>). Ein <ls_s xmlns="" idx="a" id="114" />besonders bedeutender Fall<ls_e xmlns="" idx="a" id="114" /> liegt insbesondere vor, wenn
+<ls_s xmlns="" idx="a" id="132" />Gründe<ls_e xmlns="" idx="a" id="132" /> für die Annahme bestehen, dass elementare Verfahrensgrundsätze verletzt worden
+sind oder das <ls_s xmlns="" idx="a" id="167" />Verfahren<ls_e xmlns="" idx="a" id="167" /> im Ausland <ls_s xmlns="" idx="a" id="199" />schwere<ls_e xmlns="" idx="a" id="199" /> Mängel aufweist (Art. 84 Abs. 2<lsannot xmlns="" idx="a" id="258" type="lex-ch-bund-sr-h" refstr="BGG Art. 84 Abs.2"></lsannot> <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Bundesgericht.Bundesgerichtsgesetz">BGG</lsannot>).
+
+Die <ls_s xmlns="" idx="a" id="180" />Beschwerde<ls_e xmlns="" idx="a" id="180" /> ist innert zehn <ls_s xmlns="" idx="a" id="165" />Tagen<ls_e xmlns="" idx="a" id="165" /> nach der <ls_s xmlns="" idx="a" id="185" />Eröffnung<ls_e xmlns="" idx="a" id="185" /> der vollständigen Ausfertigung
+beim <ls_s xmlns="" idx="a" id="117" />Bundesgericht<ls_e xmlns="" idx="a" id="117" /> einzureichen (vgl. Art. 100 Abs. 1<lsannot xmlns="" idx="a" id="259" type="lex-ch-bund-sr-h" refstr="BGG Art. 100 Abs.1"></lsannot> und 2<lsannot xmlns="" idx="a" id="260" type="lex-ch-bund-sr-h" refstr="BGG Art. 100 Abs.2"></lsannot> lit. b <lsannot xmlns="" idx="a" type="LEXINFO" title="Bundesgesetz über das Bundesgericht.Bundesgerichtsgesetz">BGG</lsannot>).
+</pre>
+</body>
+</html>
+</text>
+
+</lsdocx>
