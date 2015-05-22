@@ -1,2 +1,6 @@
-# dcrxml-graphdb
-OrientDB and Neo4j GraphDB Samples (dcrxml imports)
+# CAS BigData
+* Lecture code
+* OrientDB code
+* Neo4j code
+* Model for dcrxml imports to graphdb
+* Utils
