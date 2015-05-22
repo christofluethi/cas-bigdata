@@ -4,17 +4,17 @@
 
 	<parent>
 		<groupId>ch.shaped</groupId>
-		<artifactId>dcrxml-graphdb</artifactId>
+		<artifactId>cas-bigdata</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<groupId>ch.shaped</groupId>
-	<artifactId>dcrxml-graphdb-dcrmodel</artifactId>
+	<artifactId>model-dcrxml</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Model for dcr xml files</name>
+	<name>DCRXML: Model for dcrxml files</name>
 	<description>Model classes for dcr specific xml files</description>
 	<url>http://www.shaped.ch</url>
 

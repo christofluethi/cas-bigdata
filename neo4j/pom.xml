@@ -4,16 +4,16 @@
 
     <parent>
         <groupId>ch.shaped</groupId>
-        <artifactId>dcrxml-graphdb</artifactId>
+        <artifactId>cas-bigdata</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>dcrxml-graphdb-neo4j</artifactId>
+    <artifactId>neo4j-dcrxml</artifactId>
     <packaging>jar</packaging>
 
-    <name>Importer for dcr xml files to neo4j</name>
-    <description>Importer for dcr specific xml files into neo4j graph db</description>
+    <name>GraphDB Neo4j: Importer for dcrxml files</name>
+    <description>Importer for dcr specific xml files into neo4j graphdb</description>
     <url>http://www.shaped.ch</url>
 
     <dependencies>
@@ -41,12 +41,12 @@
         </dependency>
         <dependency>
             <groupId>ch.shaped</groupId>
-            <artifactId>dcrxml-graphdb-utils</artifactId>
+            <artifactId>cas-bigdata-utils</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>ch.shaped</groupId>
-            <artifactId>dcrxml-graphdb-dcrmodel</artifactId>
+            <artifactId>model-dcrxml</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

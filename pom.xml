@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ch.shaped</groupId>
-	<artifactId>dcrxml-graphdb</artifactId>
+	<artifactId>cas-bigdata</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>DCRXML to GraphDB</name>
-	<description>Importer for DCR xml files into orientdb graph db</description>
+	<name>CAS BigData: Parent Module</name>
+	<description>Parent module for lecture and generic bigdata playground code</description>
 	<url>http://www.shaped.ch</url>
 
 
