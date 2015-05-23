@@ -1,7 +1,6 @@
 package ch.shaped.bfh.cas.bgd.textanalysis.wordcount;
 
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
@@ -11,15 +10,17 @@ import java.util.StringTokenizer;
 /**
  * Created by christof on 5/19/15.
  */
-public class WordCountMapper extends Mapper {
+public class WordCountMapper extends Mapper<Object, Text, Text, IntWritable> {
 
-    private IntWritable one = new IntWritable(1);
+    private static final IntWritable ONE = new IntWritable(1);
+    private Text word = new Text();
 
-    protected void map(LongWritable in, Text value, Mapper.Context context) throws IOException, InterruptedException {
-        String line = value.toString();
-        StringTokenizer tokenizer = new StringTokenizer(line);
+    @Override
+    public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
+        StringTokenizer tokenizer = new StringTokenizer(value.toString());
         while(tokenizer.hasMoreElements()) {
-            context.write(new Text(tokenizer.nextToken()), one);
+        	word.set(tokenizer.nextToken());
+            context.write(word, ONE);
         }
     }
 }
