@@ -13,6 +13,9 @@ import java.io.IOException;
 
 /**
  * Created by christof on 5/19/15.
+ *
+ * Run MapReduce job with:
+ * hadoop jar cas-playground-1.0.0-SNAPSHOT.jar ch.shaped.bfh.cas.bgd.textanalysis.wordcount.WordCounter bgd/28957-0.txt bgd/wcout
  */
 public class WordCounter {
 
@@ -28,10 +31,6 @@ public class WordCounter {
         job.setJarByClass(WordCounter.class);
 
         job.setMapperClass(WordCountMapper.class);
-
-        /**** Uncomment the following line to enable the Combiner ****/
-        //job.setCombinerClass(WordCountReducer.class);
-
         job.setReducerClass(WordCountReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
@@ -39,30 +38,6 @@ public class WordCounter {
         FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
         FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
 
-        System.exit(job.waitForCompletion(true) ? 0 : 1); 
-
-        /*
-        if(args.length != 2) {
-            System.out.println("Argument expected: inputfile outputfile");
-        }
-
-        String fileIn = args[0];
-        String fileOut = args[1];
-
-        Configuration conf = new Configuration();
-        Job job = Job.getInstance(conf, "word count");
-        job.setJarByClass(WordCounter.class);
-
-        job.setMapperClass(WordCountMapper.class);
-        job.setReducerClass(WordCountReducer.class);
-        
-        job.setInputFormatClass(TextInputFormat.class);
-        job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(IntWritable.class);
-
-        FileInputFormat.addInputPath(job, new Path(fileIn));
-        FileOutputFormat.setOutputPath(job, new Path(fileOut));
-        
-        System.exit(job.waitForCompletion(true) ? 0 : 1); */
+        System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
