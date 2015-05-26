@@ -42,6 +42,16 @@
 			<version>${hadoop.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.opennlp</groupId>
+			<artifactId>opennlp-tools</artifactId>
+			<version>${opennlp.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jwordnet</groupId>
+			<artifactId>jwnl</artifactId>
+			<version>${jwnl.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
