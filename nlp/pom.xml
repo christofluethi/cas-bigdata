@@ -9,11 +9,11 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>cas-playground</artifactId>
+	<artifactId>nlp</artifactId>
 	<packaging>jar</packaging>
 
-	<name>Lecture: BigData Playground</name>
-	<description>Code programmed during bigdata lecture</description>
+	<name>NLP: Natural Language Processing Playground</name>
+	<description>nlp code</description>
 	<url>http://www.shaped.ch</url>
 
 	<dependencies>
