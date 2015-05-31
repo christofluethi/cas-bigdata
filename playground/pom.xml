@@ -43,6 +43,16 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>ch.shaped</groupId>
+			<artifactId>cas-bigdata-utils</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.shaped</groupId>
+			<artifactId>model-dcrxml</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.opennlp</groupId>
 			<artifactId>opennlp-tools</artifactId>
 			<version>${opennlp.version}</version>

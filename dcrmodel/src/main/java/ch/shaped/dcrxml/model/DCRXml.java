@@ -21,6 +21,7 @@ public class DCRXml {
     private static Logger logger = Logger.getLogger(DCRXml.class.getName());
 
     public static final String DCR_METAINFO = "metainfo";
+    public static final String DCR_TEXT = "text";
     public static final String DCR_DESCRIPTOR = "desc";
     public static final String DCR_ITEM = "item";
 
@@ -41,6 +42,10 @@ public class DCRXml {
 
     private int level = 0;
 
+    private TextContent content;
+    private int contentStart = -1;
+    private int contentEnd = -1;
+
     private Map<String, List<String>> metainfo = new HashMap<String, List<String>>();
     private List<Keyword> keywords = new ArrayList<Keyword>();
     private List<Reference> references = new ArrayList<Reference>();
@@ -50,21 +55,26 @@ public class DCRXml {
     public Map<String, List<String>> getMetainfo() {
         return metainfo;
     }
-
     public List<Keyword> getKeywords() {
         return keywords;
     }
-
     public List<Reference> getReferences() {
         return references;
     }
 
+    private File input;
+
     public DCRXml(File f) throws FileNotFoundException, InstantiationException {
         try {
+            this.input = f;
             this.initFromXML(f);
         } catch(XMLStreamException e) {
             throw new InstantiationException("XMLStreamException while parsing xml: "+e.getMessage());
         }
+    }
+
+    public TextContent getContent() throws InstantiationException {
+        return new TextContent(this.input, this.contentStart, this.contentEnd);
     }
 
     public String getTitle() {
@@ -162,6 +172,8 @@ public class DCRXml {
         } else if (element.equals(DCR_LSLEXREF)) {
             inLslexrefs = true;
             level = 0;
+        } else if (element.equals(DCR_TEXT)) {
+            contentStart = xmlReader.getLocation().getCharacterOffset();
         } else if(element.equals(DCR_METAINFO)) {
                 this.inMetainfo = true;
         } else if(element.equals(DCR_DESCRIPTOR)) {
@@ -211,13 +223,15 @@ public class DCRXml {
     }
 
 
-    protected void handleEndElement(String element) {
+    protected void handleEndElement(String element, XMLStreamReader xmlReader) {
         if (inLslexrefs) {
             level--;
         }
 
         if(element.equals(DCR_METAINFO)) {
             this.inMetainfo = false;
+        } else if (element.equals(DCR_TEXT)) {
+            contentEnd = xmlReader.getLocation().getCharacterOffset()-(DCR_TEXT.length()+4);
         } else if (element.equals(DCR_LSLEXREF)) {
             inLslexrefs = false;
         } else if(element.equals(DCR_DESCRIPTOR)) {
@@ -241,7 +255,7 @@ public class DCRXml {
                     break;
                 case XMLStreamConstants.END_ELEMENT:
                     elementName = xmlReader.getName().getLocalPart();
-                    handleEndElement(elementName);
+                    handleEndElement(elementName, xmlReader);
                     break;
                 case XMLStreamConstants.END_DOCUMENT:
                     xmlReader.close();
