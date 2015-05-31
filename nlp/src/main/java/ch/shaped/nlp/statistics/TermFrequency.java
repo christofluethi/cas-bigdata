@@ -1,4 +1,4 @@
-package ch.shaped.bfh.cas.bgd.textanalysis.statistics;
+package ch.shaped.nlp.statistics;
 
 import java.util.HashMap;
 import java.util.List;

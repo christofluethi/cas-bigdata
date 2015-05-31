@@ -1,4 +1,4 @@
-package ch.shaped.bfh.cas.bgd.textanalysis.similarity;
+package ch.shaped.nlp.similarity;
 
 /**
  * Created by christof on 5/26/15.

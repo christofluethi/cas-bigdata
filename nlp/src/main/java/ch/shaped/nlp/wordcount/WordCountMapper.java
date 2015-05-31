@@ -1,4 +1,4 @@
-package ch.shaped.bfh.cas.bgd.textanalysis.wordcount;
+package ch.shaped.nlp.wordcount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;

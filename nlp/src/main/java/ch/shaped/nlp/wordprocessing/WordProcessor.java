@@ -1,8 +1,8 @@
-package ch.shaped.bfh.cas.bgd.textanalysis.wordprocessing;
+package ch.shaped.nlp.wordprocessing;
 
-import ch.shaped.bfh.cas.bgd.textanalysis.nlp.PorterStemmer;
-import ch.shaped.bfh.cas.bgd.textanalysis.nlp.StopWordsFilter;
-import ch.shaped.bfh.cas.bgd.textanalysis.statistics.TermDistribution;
+import ch.shaped.nlp.statistics.TermDistribution;
+import ch.shaped.nlp.util.PorterStemmer;
+import ch.shaped.nlp.util.StopWordsFilter;
 import com.google.common.io.Files;
 import org.apache.commons.io.Charsets;
 

@@ -1,6 +1,6 @@
-package ch.shaped.bfh.cas.bgd.textanalysis.ner;
+package ch.shaped.nlp.ner;
 
-import ch.shaped.bfh.cas.bgd.textanalysis.nlp.OpenNLPFactory;
+import ch.shaped.nlp.util.OpenNLPFactory;
 import com.google.common.io.Files;
 import opennlp.tools.namefind.TokenNameFinder;
 import opennlp.tools.sentdetect.SentenceDetector;

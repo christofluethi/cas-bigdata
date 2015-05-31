@@ -1,4 +1,4 @@
-package ch.shaped.bfh.cas.bgd.textanalysis.nlp;
+package ch.shaped.nlp.util;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;

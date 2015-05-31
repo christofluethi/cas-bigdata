@@ -1,8 +1,8 @@
 package ch.shaped.nlp.classification;
 
-import ch.shaped.bfh.cas.bgd.textanalysis.nlp.OpenNLPFactory;
 import ch.shaped.dcrxml.graphdb.utils.FileCrawler;
 import ch.shaped.dcrxml.model.DCRXml;
+import ch.shaped.nlp.util.OpenNLPFactory;
 import opennlp.tools.tokenize.Tokenizer;
 import org.apache.log4j.Logger;
 

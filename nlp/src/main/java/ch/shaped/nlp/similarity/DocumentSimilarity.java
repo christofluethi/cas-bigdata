@@ -1,7 +1,7 @@
-package ch.shaped.bfh.cas.bgd.textanalysis.similarity;
+package ch.shaped.nlp.similarity;
 
-import ch.shaped.bfh.cas.bgd.textanalysis.nlp.OpenNLPFactory;
-import ch.shaped.bfh.cas.bgd.textanalysis.nlp.StopWordsFilter;
+import ch.shaped.nlp.util.OpenNLPFactory;
+import ch.shaped.nlp.util.StopWordsFilter;
 import com.google.common.io.Files;
 import net.didion.jwnl.JWNLException;
 import opennlp.tools.tokenize.Tokenizer;

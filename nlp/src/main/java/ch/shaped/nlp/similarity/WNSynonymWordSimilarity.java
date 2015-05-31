@@ -1,4 +1,4 @@
-package ch.shaped.bfh.cas.bgd.textanalysis.similarity;
+package ch.shaped.nlp.similarity;
 
 import net.didion.jwnl.JWNL;
 import net.didion.jwnl.JWNLException;
