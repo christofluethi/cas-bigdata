@@ -48,7 +48,7 @@
         <module>neo4j</module>
         <module>dcrmodel</module>
         <module>utils</module>
-        <module>playground</module>
+        <module>nlp</module>
     </modules>
 
     <dependencies>
