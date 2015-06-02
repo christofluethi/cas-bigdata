@@ -1,6 +1,8 @@
 package ch.shaped.nlp.util;
 
 import com.google.common.io.Closeables;
+import opennlp.tools.doccat.DoccatModel;
+import opennlp.tools.doccat.DocumentCategorizerME;
 import opennlp.tools.namefind.NameFinderME;
 import opennlp.tools.namefind.TokenNameFinder;
 import opennlp.tools.namefind.TokenNameFinderModel;
@@ -23,9 +25,9 @@ import java.io.InputStream;
 public class OpenNLPFactory {
     private static Logger logger = Logger.getLogger(OpenNLPFactory.class.getName());
 
-    public static final String DEFAULT_SENTENCE_DETECTOR_MODEL = "playground/src/main/resources/en-sent.bin";
-    public static final String DEFAULT_NER_PERSON_MODEL = "playground/src/main/resources/en-ner-person.bin";
-    public static final String DEFAULT_TOKENIZER_MODEL = "playground/src/main/resources/en-token.bin";
+    public static final String DEFAULT_SENTENCE_DETECTOR_MODEL = "nlp/src/main/resources/en-sent.bin";
+    public static final String DEFAULT_NER_PERSON_MODEL = "nlp/src/main/resources/en-ner-person.bin";
+    public static final String DEFAULT_TOKENIZER_MODEL = "nlp/src/main/resources/en-token.bin";
 
 
 
@@ -89,6 +91,25 @@ public class OpenNLPFactory {
     }
 
 
+    public static DocumentCategorizerME createCategorizer(File model) throws InstantiationException {
+        DocumentCategorizerME categorizer = null;
+        InputStream stream = null;
+
+        try {
+            stream = new FileInputStream(model.getAbsoluteFile());
+            DoccatModel modelIn = new DoccatModel(stream);
+            categorizer = new DocumentCategorizerME(modelIn);
+        } catch (IOException e) {
+            logger.error("Model '"+model+"' not found.");
+        } finally {
+            Closeables.closeQuietly(stream);
+        }
+        if (categorizer == null) {
+            throw new InstantiationException("Couldn't load Tokenizer class");
+        }
+
+        return categorizer;
+    }
 
 
     /**
