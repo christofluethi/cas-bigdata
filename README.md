@@ -14,6 +14,9 @@
 # NLP
 Positive and Negative Sentiment Analysis (Classifying)
 
+* http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
+* Wordlist: http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar
+* Test/Training set: http://www.cs.uic.edu/~liub/FBS/pros-cons.rar
 
 ```
 -- Wordlist Based ----
