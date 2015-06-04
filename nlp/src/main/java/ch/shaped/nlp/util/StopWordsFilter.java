@@ -15,6 +15,10 @@ public class StopWordsFilter {
     private HashSet<String> stopwords = null;
     public static final String STOPWORDS_LIST = "playground/src/main/resources/stopwords.txt";
 
+    public StopWordsFilter(String file) throws IOException {
+        this.stopwords = new HashSet<>(Files.readLines(new File(file).getAbsoluteFile(), Charsets.UTF_8));
+    }
+
     public StopWordsFilter() throws IOException {
         this.stopwords = new HashSet<>(Files.readLines(new File(STOPWORDS_LIST).getAbsoluteFile(), Charsets.UTF_8));
     }

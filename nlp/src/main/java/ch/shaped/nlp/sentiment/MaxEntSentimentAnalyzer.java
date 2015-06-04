@@ -15,7 +15,6 @@ public class MaxEntSentimentAnalyzer {
 
 
     public static void main(String[] args) throws InstantiationException, IOException {
-        MaxEntSentimentAnalyzer ner = new MaxEntSentimentAnalyzer();
         DocumentCategorizerME cat = OpenNLPFactory.createCategorizer(new File("nlp/src/main/resources/sentiments-gen/en-sentiments.bin"));
 //        double[] outcome = cat.categorize("this product is very good");
 //        String bestcat = cat.getBestCategory(outcome);

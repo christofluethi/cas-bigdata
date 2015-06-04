@@ -1,7 +1,8 @@
-package ch.shaped.nlp.classification;
+package ch.shaped.nlp.classification.train;
 
 import ch.shaped.dcrxml.graphdb.utils.FileCrawler;
 import ch.shaped.dcrxml.model.DCRXml;
+import ch.shaped.nlp.trainer.OpenNLPTrainer;
 import ch.shaped.nlp.util.OpenNLPFactory;
 import opennlp.tools.tokenize.Tokenizer;
 import org.apache.log4j.Logger;
@@ -14,10 +15,20 @@ import java.util.List;
 /**
  * Created by christof on 5/31/15.
  */
-public class NLPClassificationTrainGenerator {
+public class NLPClassificationTrainGenerator extends OpenNLPTrainer {
     private static Logger logger = Logger.getLogger(NLPClassificationTrainGenerator.class.getName());
+    private Tokenizer tokenizer = null;
 
-    public void importDirectory(File xmls, File outputFile, Tokenizer tokenizer)  {
+    public NLPClassificationTrainGenerator(Tokenizer tokenizer) {
+        this.tokenizer = tokenizer;
+    }
+
+    public void trainToModel(File xmls, File trainDataOut, File modelOut) {
+        this.writeModelTrainFile(xmls, trainDataOut);
+        this.writeModelFile(trainDataOut, modelOut);
+    }
+
+    public void writeModelTrainFile(File xmls, File outputFile)  {
         FileCrawler fc = new FileCrawler();
         List<File> files = fc.getFileList(xmls, new String[]{"xml"});
         PrintWriter pw = null;
@@ -81,21 +92,20 @@ public class NLPClassificationTrainGenerator {
     }
 
     public static void main(String[] args) throws InstantiationException {
-        if (args == null || args.length < 2) {
-            System.err.println("Usage: java -jar nlp.jar DCRXMLDirectory outputFile");
+        if (args == null || args.length < 1) {
+            System.err.println("Usage: java -jar nlp.jar DCRXMLDirectory");
             System.exit(1);
         }
 
         File dcrxmlDirectory = new File(args[0]);
-        File output = new File(args[1]);
 
         if (!dcrxmlDirectory.exists() || !dcrxmlDirectory.canRead()) {
             System.err.println("Cannot read directory " + args[0]);
         }
 
-        Tokenizer tokenizer = OpenNLPFactory.createTokenizer(new File("playground/src/main/resources/de-token.bin"));
+        Tokenizer tokenizer = OpenNLPFactory.createTokenizer(new File("nlp/src/main/resources/de-token.bin"));
 
-        NLPClassificationTrainGenerator generator = new NLPClassificationTrainGenerator();
-        generator.importDirectory(dcrxmlDirectory, output, tokenizer);
+        NLPClassificationTrainGenerator generator = new NLPClassificationTrainGenerator(tokenizer);
+        generator.trainToModel(dcrxmlDirectory, new File("nlp/src/main/resources/sentiments-gen/de-drsk.train"), new File("nlp/src/main/resources/sentiments-gen/de-drsk.bin"));
     }
 }

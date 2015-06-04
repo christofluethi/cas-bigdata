@@ -1,25 +1,23 @@
 package ch.shaped.nlp.sentiment.train;
 
 import ch.shaped.nlp.sentiment.WordlistBasedSentimentAnalyzer;
+import ch.shaped.nlp.trainer.OpenNLPTrainer;
 import ch.shaped.nlp.util.OpenNLPFactory;
 import com.google.common.io.Files;
-import opennlp.tools.doccat.DoccatModel;
-import opennlp.tools.doccat.DocumentCategorizerME;
-import opennlp.tools.doccat.DocumentSample;
-import opennlp.tools.doccat.DocumentSampleStream;
 import opennlp.tools.tokenize.Tokenizer;
-import opennlp.tools.util.ObjectStream;
-import opennlp.tools.util.PlainTextByLineStream;
 import org.apache.commons.io.Charsets;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * Created by christof on 6/2/15.
  */
-public class MaxEntSentimentTrainGenerator {
+public class MaxEntSentimentTrainGenerator extends OpenNLPTrainer {
 
     private Map<String, File> categories = new HashMap<String, File>();
     private Tokenizer tokenizer = null;
@@ -66,44 +64,6 @@ public class MaxEntSentimentTrainGenerator {
         } finally {
             if (pw != null) {
                 pw.close();
-            }
-        }
-    }
-
-    public void writeModelFile(File trainModelIn, File modelOut) {
-        DoccatModel model = null;
-
-        InputStream dataIn = null;
-        OutputStream os = null;
-        try {
-            dataIn = new FileInputStream(trainModelIn);
-            ObjectStream<String> lineStream = new PlainTextByLineStream(dataIn, "UTF-8");
-            ObjectStream<DocumentSample> sampleStream = new DocumentSampleStream(lineStream);
-
-            model = DocumentCategorizerME.train("en", sampleStream);
-            os = new BufferedOutputStream(new FileOutputStream(modelOut));
-            model.serialize(os);
-        } catch (IOException e) {
-            // Failed to read or parse training data, training failed
-            e.printStackTrace();
-        } finally {
-            if (dataIn != null) {
-                try {
-                    dataIn.close();
-                } catch (IOException e) {
-                    // Not an issue, training already finished.
-                    // The exception should be logged and investigated
-                    // if part of a production system.
-                    e.printStackTrace();
-                }
-            }
-
-            if (os != null) {
-                try {
-                    os.close();
-                } catch(IOException e) {
-                    /* ignore */
-                }
             }
         }
     }
