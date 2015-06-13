@@ -41,7 +41,7 @@ analyzed 16474 documents of which 14784 were categorized correctly: 89.741410707
 * Sentence Detection using the OpenNLP `en-sent.bin` model
 * Tokenized using the OpenNLP `en-token.bin` model
 * Class: NamedEntityRecognizer
-* Test data: Section `1976–84: Founding and incorporation` on Apple Inc wikipedia Article
+* Test data: Section `1976–84: Founding and incorporation` on [Apple Inc.](https://en.wikipedia.org/wiki/Apple_Inc.) Wikipedia Article
 
 ```
 person: Steve Jobs
