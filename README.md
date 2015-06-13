@@ -3,6 +3,7 @@
 * OrientDB code
 * Neo4j code
 * Model for dcrxml imports to graphdb
+* NLP Code
 * Utils 
 
 # Neo4j
@@ -12,7 +13,7 @@
 ![OrientDB Graph](/orientdb/src/main/resources/orientdb-sample.png?raw=true "OrientDB Graph")
 
 # NLP
-Positive and Negative Sentiment Analysis (Classifying)
+## Positive and Negative Sentiment Analysis (Classifying)
 
 * http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
 * Wordlist: http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar
@@ -28,4 +29,14 @@ analyzed 22936 negative sentences of which 9933 were categorized correctly: 43.3
 -- OpenNLP Maximum Entropy (identical training and test) ----
 analyzed 22941 positive sentences of which 21616 were categorized correctly: 94.22431454600932%
 analyzed 22936 negative sentences of which 21359 were categorized correctly: 93.12434600627834%
+```
+
+## Classification of CH-Law-Documents (BGer and BVGer decisions)
+Automatically assign category based on keywords and legislation cites.
+
+Training set: 15000 documents
+Test set: 16474 documents
+
+```
+analyzed 16474 documents of which 14784 were categorized correctly: 89.74141070778197%
 ```
