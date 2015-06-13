@@ -2,10 +2,13 @@ package ch.shaped.dcrxml.graphdb.neo4j;
 
 import ch.shaped.dcrxml.graphdb.utils.FileCrawler;
 import ch.shaped.dcrxml.graphdb.utils.api.GraphDBImporter;
-import ch.shaped.dcrxml.model.DCRXml;
+import ch.shaped.dcrxml.model.DCRDoc;
 import ch.shaped.dcrxml.model.Keyword;
 import ch.shaped.dcrxml.model.Reference;
-import org.neo4j.graphdb.*;
+import org.neo4j.graphdb.DynamicLabel;
+import org.neo4j.graphdb.DynamicRelationshipType;
+import org.neo4j.graphdb.Label;
+import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.unsafe.batchinsert.BatchInserter;
 import org.neo4j.unsafe.batchinsert.BatchInserters;
 
@@ -64,7 +67,7 @@ public class Neo4jImporter implements GraphDBImporter {
             for (File file : files) {
                 i++;
                 try {
-                    DCRXml dcrdoc = new DCRXml(file);
+                    DCRDoc dcrdoc = new DCRDoc(file);
                     documentProperties.clear();
 
                     /* create node */

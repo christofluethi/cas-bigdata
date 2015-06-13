@@ -2,7 +2,7 @@ package ch.shaped.dcrxml.graphdb.orientdb;
 
 import ch.shaped.dcrxml.graphdb.utils.FileCrawler;
 import ch.shaped.dcrxml.graphdb.utils.api.GraphDBImporter;
-import ch.shaped.dcrxml.model.DCRXml;
+import ch.shaped.dcrxml.model.DCRDoc;
 import ch.shaped.dcrxml.model.Keyword;
 import ch.shaped.dcrxml.model.Reference;
 import com.tinkerpop.blueprints.TransactionalGraph;
@@ -39,7 +39,7 @@ public class OrientDBImporter implements GraphDBImporter {
             for (File file : files) {
                 i++;
                 try {
-                    DCRXml dcrdoc = new DCRXml(file);
+                    DCRDoc dcrdoc = new DCRDoc(file);
                     Vertex doc = graph.addVertex("class:Document");
                     doc.setProperty("leid", dcrdoc.getMetainfo().get("leid").get(0));
                     doc.setProperty("url", dcrdoc.getUrl());

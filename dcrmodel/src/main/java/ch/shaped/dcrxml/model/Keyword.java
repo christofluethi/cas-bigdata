@@ -25,6 +25,10 @@ public class Keyword {
         }
     }
 
+    public Map<String, String> getLangs() {
+        return this.keywords;
+    }
+
     public String getKeyword(String lang) {
         if(lang != null) {
             if (keywords.containsKey(lang)) {

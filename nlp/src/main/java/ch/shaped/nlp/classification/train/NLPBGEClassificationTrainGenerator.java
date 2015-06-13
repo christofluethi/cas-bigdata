@@ -1,7 +1,7 @@
 package ch.shaped.nlp.classification.train;
 
 import ch.shaped.dcrxml.graphdb.utils.FileCrawler;
-import ch.shaped.dcrxml.model.DCRXml;
+import ch.shaped.dcrxml.model.DCRDoc;
 import ch.shaped.dcrxml.model.Keyword;
 import ch.shaped.dcrxml.model.Reference;
 import ch.shaped.nlp.trainer.OpenNLPTrainer;
@@ -72,7 +72,7 @@ public class NLPBGEClassificationTrainGenerator extends OpenNLPTrainer {
                 }
 
                 try {
-                    DCRXml dcrdoc = new DCRXml(file);
+                    DCRDoc dcrdoc = new DCRDoc(file);
 
                     String category = null;
                     /*String doclang = null;

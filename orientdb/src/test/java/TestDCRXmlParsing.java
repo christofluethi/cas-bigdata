@@ -1,4 +1,4 @@
-import ch.shaped.dcrxml.model.DCRXml;
+import ch.shaped.dcrxml.model.DCRDoc;
 import ch.shaped.dcrxml.model.Keyword;
 import ch.shaped.dcrxml.model.Reference;
 import org.junit.Test;
@@ -19,9 +19,9 @@ public class TestDCRXmlParsing {
     public void testParsing() throws FileNotFoundException, InstantiationException {
         ClassLoader classLoader = getClass().getClassLoader();
         File dcr = new File(classLoader.getResource("134890.xml").getFile());
-        System.out.println("Using DCRXml file: "+dcr.getAbsolutePath());
+        System.out.println("Using DCRDoc file: "+dcr.getAbsolutePath());
 
-        DCRXml dcrdoc = new DCRXml(dcr);
+        DCRDoc dcrdoc = new DCRDoc(dcr);
         Map<String, List<String>> mi = dcrdoc.getMetainfo();
         for (String s : mi.keySet()) {
             System.out.print(String.format("%20s:", s));

@@ -13,7 +13,7 @@ import java.util.HashSet;
  */
 public class StopWordsFilter {
     private HashSet<String> stopwords = null;
-    public static final String STOPWORDS_LIST = "playground/src/main/resources/stopwords.txt";
+    public static final String STOPWORDS_LIST = "nlp/src/main/resources/stopwords.txt";
 
     public StopWordsFilter(String file) throws IOException {
         this.stopwords = new HashSet<>(Files.readLines(new File(file).getAbsoluteFile(), Charsets.UTF_8));

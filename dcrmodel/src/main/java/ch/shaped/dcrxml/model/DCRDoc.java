@@ -17,8 +17,8 @@ import java.util.Map;
 /**
  * Created by christof on 5/15/15.
  */
-public class DCRXml {
-    private static Logger logger = Logger.getLogger(DCRXml.class.getName());
+public class DCRDoc {
+    private static Logger logger = Logger.getLogger(DCRDoc.class.getName());
 
     public static final String DCR_METAINFO = "metainfo";
     public static final String DCR_TEXT = "text";
@@ -64,7 +64,7 @@ public class DCRXml {
 
     private File input;
 
-    public DCRXml(File f) throws FileNotFoundException, InstantiationException {
+    public DCRDoc(File f) throws FileNotFoundException, InstantiationException {
         try {
             this.input = f;
             this.initFromXML(f);

@@ -1,7 +1,7 @@
 package ch.shaped.nlp.classification;
 
 import ch.shaped.dcrxml.graphdb.utils.FileCrawler;
-import ch.shaped.dcrxml.model.DCRXml;
+import ch.shaped.dcrxml.model.DCRDoc;
 import ch.shaped.dcrxml.model.Keyword;
 import ch.shaped.dcrxml.model.Reference;
 import ch.shaped.nlp.classification.train.NLPJusClassificationTrainGenerator;
@@ -47,7 +47,7 @@ public class MaxEntJusClassifier {
         for (File file : files) {
             i++;
             try {
-                DCRXml dcrdoc = new DCRXml(file);
+                DCRDoc dcrdoc = new DCRDoc(file);
 
                 String doclang = null;
                 String category = null;

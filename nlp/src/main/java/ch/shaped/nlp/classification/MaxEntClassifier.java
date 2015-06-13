@@ -1,7 +1,7 @@
 package ch.shaped.nlp.classification;
 
 import ch.shaped.dcrxml.graphdb.utils.FileCrawler;
-import ch.shaped.dcrxml.model.DCRXml;
+import ch.shaped.dcrxml.model.DCRDoc;
 import ch.shaped.nlp.util.OpenNLPFactory;
 import opennlp.tools.doccat.DocumentCategorizerME;
 import org.apache.log4j.Logger;
@@ -36,7 +36,7 @@ public class MaxEntClassifier {
         for (File file : files) {
             i++;
             try {
-                DCRXml dcrdoc = new DCRXml(file);
+                DCRDoc dcrdoc = new DCRDoc(file);
 
                 String doclang = null;
                 String category = null;
