@@ -36,6 +36,23 @@ Automatically assign category based on keywords and legislation cites.
 analyzed 16474 documents of which 14784 were categorized correctly: 89.74141070778197%
 ```
 
+# Named-entity recognition (NER)
+* NER using the OpenNLP `en-ner-person.bin` model
+* Sentence Detection using the OpenNLP `en-sent.bin` model
+* Tokenized using the OpenNLP `en-token.bin` model
+* Class: NamedEntityRecognizer
+* Test data: Section `1976–84: Founding and incorporation` on Apple Inc wikipedia Article
+
+```
+person: Steve Jobs
+person: Steve Wozniak
+person: Ronald Wayne
+person: Wozniak
+person: RAM
+person: Wayne
+person: Mike Markkula
+```
+
 # GraphDB
 ## Neo4j
 ![Neo4j Graph](/neo4j/src/main/resources/neo4j-sample.png?raw=true "Neo4j Graph")
