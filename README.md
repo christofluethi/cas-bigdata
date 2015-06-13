@@ -6,12 +6,6 @@
 * NLP Code
 * Utils 
 
-# Neo4j
-![Neo4j Graph](/neo4j/src/main/resources/neo4j-sample.png?raw=true "Neo4j Graph")
-
-# OrientDB
-![OrientDB Graph](/orientdb/src/main/resources/orientdb-sample.png?raw=true "OrientDB Graph")
-
 # NLP
 ## Positive and Negative Sentiment Analysis (Classifying)
 
@@ -41,3 +35,10 @@ Automatically assign category based on keywords and legislation cites.
 ```
 analyzed 16474 documents of which 14784 were categorized correctly: 89.74141070778197%
 ```
+
+# GraphDB
+## Neo4j
+![Neo4j Graph](/neo4j/src/main/resources/neo4j-sample.png?raw=true "Neo4j Graph")
+
+## OrientDB
+![OrientDB Graph](/orientdb/src/main/resources/orientdb-sample.png?raw=true "OrientDB Graph")
