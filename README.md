@@ -31,9 +31,10 @@ analyzed 22941 positive sentences of which 21616 were categorized correctly: 94.
 analyzed 22936 negative sentences of which 21359 were categorized correctly: 93.12434600627834%
 ```
 
-## Classification of CH-Law-Documents (BGer and BVGer decisions)
+## Classification of CH-Law-Documents
 Automatically assign category based on keywords and legislation cites.
 
+Data: CH-Law decisions from BGer and BVGer
 Training set: 15000 documents
 Test set: 16474 documents
 
