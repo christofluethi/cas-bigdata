@@ -1,3 +1,5 @@
+package ch.shaped.search;
+
 import ch.shaped.dcrxml.json.DCRDocJsonSerializer;
 import ch.shaped.dcrxml.model.DCRDoc;
 
