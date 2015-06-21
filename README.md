@@ -61,6 +61,7 @@ person: Mike Markkula
 ![OrientDB Graph](/orientdb/src/main/resources/orientdb-sample.png?raw=true "OrientDB Graph")
 
 # Apache Spark & Hadoop setup
+http://blog.prabeeshk.com/blog/2014/10/31/install-apache-spark-on-ubuntu-14-dot-04/
 
 ## Scala
 * Download scala 2.11.6 deb file
