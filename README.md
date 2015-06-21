@@ -76,3 +76,6 @@ Scala code runner version 2.11.6 -- Copyright 2002-2013, LAMP/EPFL
 
 ## Apache Spark
 * http://mirror.sdunix.com/apache/spark/spark-1.4.0/spark-1.4.0.tgz 
+* unpack tar
+* cd spark-1.4.0
+* sbt/sbt assembly (may take some time)
