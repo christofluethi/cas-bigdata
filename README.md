@@ -59,3 +59,20 @@ person: Mike Markkula
 
 ## OrientDB
 ![OrientDB Graph](/orientdb/src/main/resources/orientdb-sample.png?raw=true "OrientDB Graph")
+
+# Apache Spark & Hadoop setup
+
+## Scala
+* Download scala 2.11.6 deb file
+```
+sudo dpkg -i scala-2.11.6.deb
+```
+
+version `scala -version`
+
+```
+Scala code runner version 2.11.6 -- Copyright 2002-2013, LAMP/EPFL
+```
+
+## Apache Spark
+* http://mirror.sdunix.com/apache/spark/spark-1.4.0/spark-1.4.0.tgz 
