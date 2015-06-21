@@ -61,7 +61,8 @@ person: Mike Markkula
 ![OrientDB Graph](/orientdb/src/main/resources/orientdb-sample.png?raw=true "OrientDB Graph")
 
 # Apache Spark & Hadoop setup
-http://blog.prabeeshk.com/blog/2014/10/31/install-apache-spark-on-ubuntu-14-dot-04/
+* http://blog.prabeeshk.com/blog/2014/10/31/install-apache-spark-on-ubuntu-14-dot-04/
+* https://rstudio-pubs-static.s3.amazonaws.com/78508_abe89197267240dfb6f4facb361a20ed.html
 
 ## Scala
 * Download scala 2.11.6 deb file
@@ -74,6 +75,18 @@ version `scala -version`
 ```
 Scala code runner version 2.11.6 -- Copyright 2002-2013, LAMP/EPFL
 ```
+
+## Apache Hadoop
+```
+sudo addgroup hadoop
+sudo adduser --ingroup hadoop hduser
+sudo adduser hduser sudo
+```
+
+* download `http://www.motorlogy.com/apache/hadoop/common/current/hadoop-2.7.0.tar.gz`
+* extract
+* mv hadoop-2.7.0 /usr/local/hadoop 
+* 
 
 ## Apache Spark
 * http://mirror.sdunix.com/apache/spark/spark-1.4.0/spark-1.4.0.tgz 
