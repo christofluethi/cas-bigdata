@@ -3,6 +3,7 @@ package ch.shaped.search.elastic;
 import ch.shaped.dcrxml.graphdb.utils.FileCrawler;
 import ch.shaped.dcrxml.json.DCRDocJsonSerializer;
 import ch.shaped.dcrxml.model.DCRDoc;
+import ch.shaped.search.SearchImportNode;
 import org.apache.log4j.Logger;
 import org.elasticsearch.action.bulk.BulkProcessor;
 import org.elasticsearch.action.index.IndexRequest;
@@ -22,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by christof on 6/14/15.
  */
-public class ElasticsearchImportNode {
+public class ElasticsearchImportNode implements SearchImportNode {
     private static Logger logger = Logger.getLogger(ElasticsearchImportNode.class.getName());
 
     private final String esClusterName;
@@ -46,7 +47,7 @@ public class ElasticsearchImportNode {
                 .addTransportAddress(new InetSocketTransportAddress("localhost", 9300));
     }
 
-    public void index(File directory) {
+    public void indexDirectory(File directory) {
         FileCrawler fc = new FileCrawler();
         List<File> files = fc.getFileList(directory, new String[]{"xml"});
         DCRDocJsonSerializer serialzer = new DCRDocJsonSerializer();
@@ -83,7 +84,7 @@ public class ElasticsearchImportNode {
             System.exit(1);
         }
 
-        ElasticsearchImportNode ein = new ElasticsearchImportNode("dcrdocs");
-        ein.index(new File(args[0]));
+        SearchImportNode ein = new ElasticsearchImportNode("dcrdocs");
+        ein.indexDirectory(new File(args[0]));
     }
 }
